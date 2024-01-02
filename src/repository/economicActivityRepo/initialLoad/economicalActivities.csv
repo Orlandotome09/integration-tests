@@ -1,0 +1,1329 @@
+code_id,description,risk_value
+0111-3/01,Cultivo de arroz,FALSE
+0111-3/02,Cultivo de milho,FALSE
+0111-3/03,Cultivo de trigo,FALSE
+0111-3/99,Cultivo de outros cereais não especificados anteriormente,FALSE
+0112-1/01,Cultivo de algodão herbáceo,FALSE
+0112-1/02,Cultivo de juta,FALSE
+0112-1/99,Cultivo de outras fibras de lavoura temporária não especificadas anteriormente,FALSE
+0113-0/00,Cultivo de cana-de-açúcar,FALSE
+0114-8/00,Cultivo de fumo,FALSE
+0115-6/00,Cultivo de soja,FALSE
+0116-4/01,Cultivo de amendoim,FALSE
+0116-4/02,Cultivo de girassol,FALSE
+0116-4/03,Cultivo de mamona,FALSE
+0116-4/99,Cultivo de outras oleaginosas de lavoura temporária não especificadas anteriormente,FALSE
+0119-9/01,Cultivo de abacaxi,FALSE
+0119-9/02,Cultivo de alho,FALSE
+0119-9/03,Cultivo de batata-inglesa,FALSE
+0119-9/04,Cultivo de cebola,FALSE
+0119-9/05,Cultivo de feijão,FALSE
+0119-9/06,Cultivo de mandioca,FALSE
+0119-9/07,Cultivo de melão,FALSE
+0119-9/08,Cultivo de melancia,FALSE
+0119-9/09,Cultivo de tomate rasteiro,FALSE
+0119-9/99,Cultivo de outras plantas de lavoura temporária não especificadas anteriormente,FALSE
+0121-1/01,"Horticultura, exceto morango",FALSE
+0121-1/02,Cultivo de morango,FALSE
+0122-9/00,Floricultura,FALSE
+0131-8/00,Cultivo de laranja,FALSE
+0132-6/00,Cultivo de uva,FALSE
+0133-4/01,Cultivo de açaí,FALSE
+0133-4/02,Cultivo de banana,FALSE
+0133-4/03,Cultivo de caju,FALSE
+0133-4/04,"Cultivo de cítricos, exceto laranja",FALSE
+0133-4/05,Cultivo de coco-da-baía,FALSE
+0133-4/06,Cultivo de guaraná,FALSE
+0133-4/07,Cultivo de maçã,FALSE
+0133-4/08,Cultivo de mamão,FALSE
+0133-4/09,Cultivo de maracujá,FALSE
+0133-4/10,Cultivo de manga,FALSE
+0133-4/11,Cultivo de pêssego,FALSE
+0133-4/99,Cultivo de frutas de lavoura permanente não especificadas anteriormente,FALSE
+0134-2/00,Cultivo de café,FALSE
+0135-1/00,Cultivo de cacau,FALSE
+0139-3/01,Cultivo de chá-da-índia,FALSE
+0139-3/02,Cultivo de erva-mate,FALSE
+0139-3/03,Cultivo de pimenta-do-reino,FALSE
+0139-3/04,"Cultivo de plantas para condimento, exceto pimenta-do-reino",FALSE
+0139-3/05,Cultivo de dendê,FALSE
+0139-3/06,Cultivo de seringueira,FALSE
+0139-3/99,Cultivo de outras plantas de lavoura permanente não especificadas anteriormente,FALSE
+0141-5/01,"Produção de sementes certificadas, exceto de forrageiras para pasto",FALSE
+0141-5/02,Produção de sementes certificadas de forrageiras para formação de pasto,FALSE
+0142-3/00,"Produção de mudas e outras formas de propagação vegetal, certificadas",FALSE
+0151-2/01,Criação de bovinos para corte,FALSE
+0151-2/02,Criação de bovinos para leite,FALSE
+0151-2/03,"Criação de bovinos, exceto para corte e leite",FALSE
+0152-1/01,Criação de bufalinos,FALSE
+0152-1/02,Criação de eqüinos,FALSE
+0152-1/03,Criação de asininos e muares,FALSE
+0153-9/01,Criação de caprinos,FALSE
+0153-9/02,"Criação de ovinos, inclusive para produção de lã",FALSE
+0154-7/00,Criação de suínos,FALSE
+0155-5/01,Criação de frangos para corte,FALSE
+0155-5/02,Produção de pintos de um dia,FALSE
+0155-5/03,"Criação de outros galináceos, exceto para corte",FALSE
+0155-5/04,"Criação de aves, exceto galináceos",FALSE
+0155-5/05,Produção de ovos,FALSE
+0159-8/01,Apicultura,FALSE
+0159-8/02,Criação de animais de estimação,FALSE
+0159-8/03,Criação de escargô,FALSE
+0159-8/04,Criação de bicho-da-seda,FALSE
+0159-8/99,Criação de outros animais não especificados anteriormente,FALSE
+0161-0/01,Serviço de pulverização e controle de pragas agrícolas,FALSE
+0161-0/02,Serviço de poda de árvores para lavouras,FALSE
+0161-0/03,"Serviço de preparação de terreno, cultivo e colheita",FALSE
+0161-0/99,Atividades de apoio à agricultura não especificadas anteriormente,FALSE
+0162-8/01,Serviço de inseminação artificial de animais,FALSE
+0162-8/02,Serviço de tosquiamento de ovinos,FALSE
+0162-8/03,Serviço de manejo de animais,FALSE
+0162-8/99,Atividades de apoio à pecuária não especificadas anteriormente,FALSE
+0163-6/00,Atividades de pós-colheita,FALSE
+0170-9/00,Caça e serviços relacionados,FALSE
+0210-1/01,Cultivo de eucalipto,FALSE
+0210-1/02,Cultivo de acácia-negra,FALSE
+0210-1/03,Cultivo de pinus,FALSE
+0210-1/04,Cultivo de teca,FALSE
+0210-1/05,"Cultivo de espécies madeireiras, exceto eucalipto, acácia-negra, pinus e teca",FALSE
+0210-1/06,Cultivo de mudas em viveiros florestais,FALSE
+0210-1/07,Extração de madeira em florestas plantadas,FALSE
+0210-1/08,Produção de carvão vegetal - florestas plantadas,FALSE
+0210-1/09,Produção de casca de acácia-negra - florestas plantadas,FALSE
+0210-1/99,Produção de produtos não-madeireiros não especificados anteriormente em florestas plantadas,FALSE
+0220-9/01,Extração de madeira em florestas nativas,FALSE
+0220-9/02,Produção de carvão vegetal - florestas nativas,FALSE
+0220-9/03,Coleta de castanha-do-pará em florestas nativas,FALSE
+0220-9/04,Coleta de látex em florestas nativas,FALSE
+0220-9/05,Coleta de palmito em florestas nativas,FALSE
+0220-9/06,Conservação de florestas nativas,FALSE
+0220-9/99,Coleta de produtos não-madeireiros não especificados anteriormente em florestas nativas,FALSE
+0230-6/00,Atividades de apoio à produção florestal,FALSE
+0311-6/01,Pesca de peixes em água salgada,FALSE
+0311-6/02,Pesca de crustáceos e moluscos em água salgada,FALSE
+0311-6/03,Coleta de outros produtos marinhos,FALSE
+0311-6/04,Atividades de apoio à pesca em água salgada,FALSE
+0312-4/01,Pesca de peixes em água doce,FALSE
+0312-4/02,Pesca de crustáceos e moluscos em água doce,FALSE
+0312-4/03,Coleta de outros produtos aquáticos de água doce,FALSE
+0312-4/04,Atividades de apoio à pesca em água doce,FALSE
+0321-3/01,Criação de peixes em água salgada e salobra,FALSE
+0321-3/02,Criação de camarões em água salgada e salobra,FALSE
+0321-3/03,Criação de ostras e mexilhões em água salgada e salobra,FALSE
+0321-3/04,Criação de peixes ornamentais em água salgada e salobra,FALSE
+0321-3/05,Atividades de apoio à aqüicultura em água salgada e salobra,FALSE
+0321-3/99,Cultivos e semicultivos da aqüicultura em água salgada e salobra não especificados anteriormente,FALSE
+0322-1/01,Criação de peixes em água doce,FALSE
+0322-1/02,Criação de camarões em água doce,FALSE
+0322-1/03,Criação de ostras e mexilhões em água doce,FALSE
+0322-1/04,Criação de peixes ornamentais em água doce,FALSE
+0322-1/05,Ranicultura,FALSE
+0322-1/06,Criação de jacaré,FALSE
+0322-1/07,Atividades de apoio à aqüicultura em água doce,FALSE
+0322-1/99,Cultivos e semicultivos da aqüicultura em água doce não especificados anteriormente,FALSE
+0500-3/01,Extração de carvão mineral,FALSE
+0500-3/02,Beneficiamento de carvão mineral,FALSE
+0600-0/01,Extração de petróleo e gás natural,FALSE
+0600-0/02,Extração e beneficiamento de xisto,FALSE
+0600-0/03,Extração e beneficiamento de areias betuminosas,FALSE
+0710-3/01,Extração de minério de ferro,FALSE
+0710-3/02,"Pelotização, sinterização e outros beneficiamentos de minério de ferro",FALSE
+0721-9/01,Extração de minério de alumínio,FALSE
+0721-9/02,Beneficiamento de minério de alumínio,FALSE
+0722-7/01,Extração de minério de estanho,FALSE
+0722-7/02,Beneficiamento de minério de estanho,FALSE
+0723-5/01,Extração de minério de manganês,FALSE
+0723-5/02,Beneficiamento de minério de manganês,FALSE
+0724-3/01,Extração de minério de metais preciosos,FALSE
+0724-3/02,Beneficiamento de minério de metais preciosos,FALSE
+0725-1/00,Extração de minerais radioativos,FALSE
+0729-4/01,Extração de minérios de nióbio e titânio,FALSE
+0729-4/02,Extração de minério de tungstênio,FALSE
+0729-4/03,Extração de minério de níquel,FALSE
+0729-4/04,"Extração de minérios de cobre, chumbo, zinco e outros minerais metálicos não-ferrosos não especificados anteriormente",FALSE
+0729-4/05,"Beneficiamento de minérios de cobre, chumbo, zinco e outros minerais metálicos não-ferrosos não especificados anteriormente",FALSE
+0810-0/01,Extração de ardósia e beneficiamento associado,FALSE
+0810-0/02,Extração de granito e beneficiamento associado,FALSE
+0810-0/03,Extração de mármore e beneficiamento associado,FALSE
+0810-0/04,Extração de calcário e dolomita e beneficiamento associado,FALSE
+0810-0/05,Extração de gesso e caulim,FALSE
+0810-0/06,"Extração de areia, cascalho ou pedregulho e beneficiamento associado",FALSE
+0810-0/07,Extração de argila e beneficiamento associado,FALSE
+0810-0/08,Extração de saibro e beneficiamento associado,FALSE
+0810-0/09,Extração de basalto e beneficiamento associado,FALSE
+0810-0/10,Beneficiamento de gesso e caulim associado à extração,FALSE
+0810-0/99,Extração e britamento de pedras e outros materiais para construção e beneficiamento associado,FALSE
+0891-6/00,"Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos",FALSE
+0892-4/01,Extração de sal marinho,FALSE
+0892-4/02,Extração de sal-gema,FALSE
+0892-4/03,Refino e outros tratamentos do sal,FALSE
+0893-2/00,Extração de gemas (pedras preciosas e semipreciosas),FALSE
+0899-1/01,Extração de grafita,FALSE
+0899-1/02,Extração de quartzo,FALSE
+0899-1/03,Extração de amianto,FALSE
+0899-1/99,Extração de outros minerais não-metálicos não especificados anteriormente,FALSE
+0910-6/00,Atividades de apoio à extração de petróleo e gás natural,FALSE
+0990-4/01,Atividades de apoio à extração de minério de ferro,FALSE
+0990-4/02,Atividades de apoio à extração de minerais metálicos não-ferrosos,FALSE
+0990-4/03,Atividades de apoio à extração de minerais não-metálicos,FALSE
+1011-2/01,Frigorífico - abate de bovinos,FALSE
+1011-2/02,Frigorífico - abate de eqüinos,FALSE
+1011-2/03,Frigorífico - abate de ovinos e caprinos,FALSE
+1011-2/04,Frigorífico - abate de bufalinos,FALSE
+1011-2/05,Matadouro - abate de reses sob contrato - exceto abate de suínos,FALSE
+1012-1/01,Abate de aves,FALSE
+1012-1/02,Abate de pequenos animais,FALSE
+1012-1/03,Frigorífico - abate de suínos,FALSE
+1012-1/04,Matadouro - abate de suínos sob contrato,FALSE
+1013-9/01,Fabricação de produtos de carne,FALSE
+1013-9/02,Preparação de subprodutos do abate,FALSE
+1020-1/01,"Preservação de peixes, crustáceos e moluscos",FALSE
+1020-1/02,"Fabricação de conservas de peixes, crustáceos e moluscos",FALSE
+1031-7/00,Fabricação de conservas de frutas,FALSE
+1032-5/01,Fabricação de conservas de palmito,FALSE
+1032-5/99,"Fabricação de conservas de legumes e outros vegetais, exceto palmito",FALSE
+1033-3/01,"Fabricação de sucos concentrados de frutas, hortaliças e legumes",FALSE
+1033-3/02,"Fabricação de sucos de frutas, hortaliças e legumes, exceto concentrados",FALSE
+1041-4/00,"Fabricação de óleos vegetais em bruto, exceto óleo de milho",FALSE
+1042-2/00,"Fabricação de óleos vegetais refinados, exceto óleo de milho",FALSE
+1043-1/00,Fabricação de margarina e outras gorduras vegetais e de óleos não-comestíveis de animais,FALSE
+1051-1/00,Preparação do leite,FALSE
+1052-0/00,Fabricação de laticínios,FALSE
+1053-8/00,Fabricação de sorvetes e outros gelados comestíveis,FALSE
+1061-9/01,Beneficiamento de arroz,FALSE
+1061-9/02,Fabricação de produtos do arroz,FALSE
+1062-7/00,Moagem de trigo e fabricação de derivados,FALSE
+1063-5/00,Fabricação de farinha de mandioca e derivados,FALSE
+1064-3/00,"Fabricação de farinha de milho e derivados, exceto óleos de milho",FALSE
+1065-1/01,Fabricação de amidos e féculas de vegetais,FALSE
+1065-1/02,Fabricação de óleo de milho em bruto,FALSE
+1065-1/03,Fabricação de óleo de milho refinado,FALSE
+1066-0/00,Fabricação de alimentos para animais,FALSE
+1069-4/00,Moagem e fabricação de produtos de origem vegetal não especificados anteriormente,FALSE
+1071-6/00,Fabricação de açúcar em bruto,FALSE
+1072-4/01,Fabricação de açúcar de cana refinado,FALSE
+1072-4/02,Fabricação de açúcar de cereais (dextrose) e de beterraba,FALSE
+1081-3/01,Beneficiamento de café,FALSE
+1081-3/02,Torrefação e moagem de café,FALSE
+1082-1/00,Fabricação de produtos à base de café,FALSE
+1091-1/01,Fabricação de produtos de panificação industrial,FALSE
+1091-1/02,Padaria e confeitaria com predominância de produção própria,FALSE
+1092-9/00,Fabricação de biscoitos e bolachas,FALSE
+1093-7/01,Fabricação de produtos derivados do cacau e de chocolates,FALSE
+1093-7/02,"Fabricação de frutas cristalizadas, balas e semelhantes",FALSE
+1094-5/00,Fabricação de massas alimentícias,FALSE
+1095-3/00,"Fabricação de especiarias, molhos, temperos e condimentos",FALSE
+1096-1/00,Fabricação de alimentos e pratos prontos,FALSE
+1099-6/01,Fabricação de vinagres,FALSE
+1099-6/02,Fabricação de pós alimentícios,FALSE
+1099-6/03,Fabricação de fermentos e leveduras,FALSE
+1099-6/04,Fabricação de gelo comum,FALSE
+1099-6/05,"Fabricação de produtos para infusão (chá, mate, etc.)",FALSE
+1099-6/06,Fabricação de adoçantes naturais e artificiais,FALSE
+1099-6/07,Fabricação de alimentos dietéticos e complementos alimentares,FALSE
+1099-6/99,Fabricação de outros produtos alimentícios não especificados anteriormente,FALSE
+1111-9/01,Fabricação de aguardente de cana-de-açúcar,FALSE
+1111-9/02,Fabricação de outras aguardentes e bebidas destiladas,FALSE
+1112-7/00,Fabricação de vinho,FALSE
+1113-5/01,"Fabricação de malte, inclusive malte uísque",FALSE
+1113-5/02,Fabricação de cervejas e chopes,FALSE
+1121-6/00,Fabricação de águas envasadas,FALSE
+1122-4/01,Fabricação de refrigerantes,FALSE
+1122-4/02,Fabricação de chá mate e outros chás prontos para consumo,FALSE
+1122-4/03,"Fabricação de refrescos, xaropes e pós para refrescos, exceto refrescos de frutas",FALSE
+1122-4/04,Fabricação de bebidas isotônicas,FALSE
+1122-4/99,Fabricação de outras bebidas não-alcoólicas não especificadas anteriormente,FALSE
+1210-7/00,Processamento industrial do fumo,FALSE
+1220-4/01,Fabricação de cigarros,FALSE
+1220-4/02,Fabricação de cigarrilhas e charutos,FALSE
+1220-4/03,Fabricação de filtros para cigarros,FALSE
+1220-4/99,"Fabricação de outros produtos do fumo, exceto cigarros, cigarrilhas e charutos",FALSE
+1311-1/00,Preparação e fiação de fibras de algodão,FALSE
+1312-0/00,"Preparação e fiação de fibras têxteis naturais, exceto algodão",FALSE
+1313-8/00,Fiação de fibras artificiais e sintéticas,FALSE
+1314-6/00,Fabricação de linhas para costurar e bordar,FALSE
+1321-9/00,Tecelagem de fios de algodão,FALSE
+1322-7/00,"Tecelagem de fios de fibras têxteis naturais, exceto algodão",FALSE
+1323-5/00,Tecelagem de fios de fibras artificiais e sintéticas,FALSE
+1330-8/00,Fabricação de tecidos de malha,FALSE
+1340-5/01,"Estamparia e texturização em fios, tecidos, artefatos têxteis e peças do vestuário",FALSE
+1340-5/02,"Alvejamento, tingimento e torção em fios, tecidos, artefatos têxteis e peças do vestuário",FALSE
+1340-5/99,"Outros serviços de acabamento em fios, tecidos, artefatos têxteis e peças do vestuário",FALSE
+1351-1/00,Fabricação de artefatos têxteis para uso doméstico,FALSE
+1352-9/00,Fabricação de artefatos de tapeçaria,FALSE
+1353-7/00,Fabricação de artefatos de cordoaria,FALSE
+1354-5/00,"Fabricação de tecidos especiais, inclusive artefatos",FALSE
+1359-6/00,Fabricação de outros produtos têxteis não especificados anteriormente,FALSE
+1411-8/01,Confecção de roupas íntimas,FALSE
+1411-8/02,Facção de roupas íntimas,FALSE
+1412-6/01,"Confecção de peças do vestuário, exceto roupas íntimas e as confeccionadas sob medida",FALSE
+1412-6/02,"Confecção, sob medida, de peças do vestuário, exceto roupas íntimas",FALSE
+1412-6/03,"Facção de peças do vestuário, exceto roupas íntimas",FALSE
+1413-4/01,"Confecção de roupas profissionais, exceto sob medida",FALSE
+1413-4/02,"Confecção, sob medida, de roupas profissionais",FALSE
+1413-4/03,Facção de roupas profissionais,FALSE
+1414-2/00,"Fabricação de acessórios do vestuário, exceto para segurança e proteção",FALSE
+1421-5/00,Fabricação de meias,FALSE
+1422-3/00,"Fabricação de artigos do vestuário, produzidos em malharias e tricotagens, exceto meias",FALSE
+1510-6/00,Curtimento e outras preparações de couro,FALSE
+1521-1/00,"Fabricação de artigos para viagem, bolsas e semelhantes de qualquer material",FALSE
+1529-7/00,Fabricação de artefatos de couro não especificados anteriormente,FALSE
+1531-9/01,Fabricação de calçados de couro,FALSE
+1531-9/02,Acabamento de calçados de couro sob contrato,FALSE
+1532-7/00,Fabricação de tênis de qualquer material,FALSE
+1533-5/00,Fabricação de calçados de material sintético,FALSE
+1539-4/00,Fabricação de calçados de materiais não especificados anteriormente,FALSE
+1540-8/00,"Fabricação de partes para calçados, de qualquer material",FALSE
+1610-2/01,Serrarias com desdobramento de madeira,FALSE
+1610-2/02,Serrarias sem desdobramento de madeira,FALSE
+1621-8/00,"Fabricação de madeira laminada e de chapas de madeira compensada, prensada e aglomerada",FALSE
+1622-6/01,Fabricação de casas de madeira pré-fabricadas,FALSE
+1622-6/02,Fabricação de esquadrias de madeira e de peças de madeira para instalações industriais e comerciais,FALSE
+1622-6/99,Fabricação de outros artigos de carpintaria para construção,FALSE
+1623-4/00,Fabricação de artefatos de tanoaria e de embalagens de madeira,FALSE
+1629-3/01,"Fabricação de artefatos diversos de madeira, exceto móveis",FALSE
+1629-3/02,"Fabricação de artefatos diversos de cortiça, bambu, palha, vime e outros materiais trançados, exceto móveis",FALSE
+1710-9/00,Fabricação de celulose e outras pastas para a fabricação de papel,FALSE
+1721-4/00,Fabricação de papel,FALSE
+1722-2/00,Fabricação de cartolina e papel-cartão,FALSE
+1731-1/00,Fabricação de embalagens de papel,FALSE
+1732-0/00,Fabricação de embalagens de cartolina e papel-cartão,FALSE
+1733-8/00,Fabricação de chapas e de embalagens de papelão ondulado,FALSE
+1741-9/01,Fabricação de formulários contínuos,FALSE
+1741-9/02,"Fabricação de produtos de papel, cartolina, papel-cartão e papelão ondulado para uso industrial, comercial e de escritório, exceto formulário contínuo",FALSE
+1742-7/01,Fabricação de fraldas descartáveis,FALSE
+1742-7/02,Fabricação de absorventes higiênicos,FALSE
+1742-7/99,Fabricação de produtos de papel para uso doméstico e higiênico-sanitário não especificados anteriormente,FALSE
+1749-4/00,"Fabricação de produtos de pastas celulósicas, papel, cartolina, papel-cartão e papelão ondulado não especificados anteriormente",FALSE
+1811-3/01,Impressão de jornais,FALSE
+1811-3/02,"Impressão de livros, revistas e outras publicações periódicas",FALSE
+1812-1/00,Impressão de material de segurança,FALSE
+1813-0/01,Impressão de material para uso publicitário,FALSE
+1813-0/99,Impressão de material para outros usos,FALSE
+1821-1/00,Serviços de pré-impressão,FALSE
+1822-9/01,Serviços de encadernação e plastificação,FALSE
+1822-9/99,"Serviços de acabamentos gráficos, exceto encadernação e plastificação",FALSE
+1830-0/01,Reprodução de som em qualquer suporte,FALSE
+1830-0/02,Reprodução de vídeo em qualquer suporte,FALSE
+1830-0/03,Reprodução de software em qualquer suporte,FALSE
+1910-1/00,Coquerias,FALSE
+1921-7/00,Fabricação de produtos do refino de petróleo,FALSE
+1922-5/01,Formulação de combustíveis,FALSE
+1922-5/02,Rerrefino de óleos lubrificantes,FALSE
+1922-5/99,"Fabricação de outros produtos derivados do petróleo, exceto produtos do refino",FALSE
+1931-4/00,Fabricação de álcool,FALSE
+1932-2/00,"Fabricação de biocombustíveis, exceto álcool",FALSE
+2011-8/00,Fabricação de cloro e álcalis,FALSE
+2012-6/00,Fabricação de intermediários para fertilizantes,FALSE
+2013-4/01,Fabricação de adubos e fertilizantes organo-minerais,FALSE
+2013-4/02,"Fabricação de adubos e fertilizantes, exceto organo-minerais",FALSE
+2014-2/00,Fabricação de gases industriais,FALSE
+2019-3/01,Elaboração de combustíveis nucleares,FALSE
+2019-3/99,Fabricação de outros produtos químicos inorgânicos não especificados anteriormente,FALSE
+2021-5/00,Fabricação de produtos petroquímicos básicos,FALSE
+2022-3/00,"Fabricação de intermediários para plastificantes, resinas e fibras",FALSE
+2029-1/00,Fabricação de produtos químicos orgânicos não especificados anteriormente,FALSE
+2031-2/00,Fabricação de resinas termoplásticas,FALSE
+2032-1/00,Fabricação de resinas termofixas,FALSE
+2033-9/00,Fabricação de elastômeros,FALSE
+2040-1/00,Fabricação de fibras artificiais e sintéticas,FALSE
+2051-7/00,Fabricação de defensivos agrícolas,FALSE
+2052-5/00,Fabricação de desinfestantes domissanitários,FALSE
+2061-4/00,Fabricação de sabões e detergentes sintéticos,FALSE
+2062-2/00,Fabricação de produtos de limpeza e polimento,FALSE
+2063-1/00,"Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal",FALSE
+2071-1/00,"Fabricação de tintas, vernizes, esmaltes e lacas",FALSE
+2072-0/00,Fabricação de tintas de impressão,FALSE
+2073-8/00,"Fabricação de impermeabilizantes, solventes e produtos afins",FALSE
+2091-6/00,Fabricação de adesivos e selantes,FALSE
+2092-4/01,"Fabricação de pólvoras, explosivos e detonantes",FALSE
+2092-4/02,Fabricação de artigos pirotécnicos,FALSE
+2092-4/03,Fabricação de fósforos de segurança,FALSE
+2093-2/00,Fabricação de aditivos de uso industrial,FALSE
+2094-1/00,Fabricação de catalisadores,FALSE
+2099-1/01,"Fabricação de chapas, filmes, papéis e outros materiais e produtos químicos para fotografia",FALSE
+2099-1/99,Fabricação de outros produtos químicos não especificados anteriormente,FALSE
+2110-6/00,Fabricação de produtos farmoquímicos,FALSE
+2121-1/01,Fabricação de medicamentos alopáticos para uso humano,FALSE
+2121-1/02,Fabricação de medicamentos homeopáticos para uso humano,FALSE
+2121-1/03,Fabricação de medicamentos fitoterápicos para uso humano,FALSE
+2122-0/00,Fabricação de medicamentos para uso veterinário,FALSE
+2123-8/00,Fabricação de preparações farmacêuticas,FALSE
+2211-1/00,Fabricação de pneumáticos e de câmaras-de-ar,FALSE
+2212-9/00,Reforma de pneumáticos usados,FALSE
+2219-6/00,Fabricação de artefatos de borracha não especificados anteriormente,FALSE
+2221-8/00,Fabricação de laminados planos e tubulares de material plástico,FALSE
+2222-6/00,Fabricação de embalagens de material plástico,FALSE
+2223-4/00,Fabricação de tubos e acessórios de material plástico para uso na construção,FALSE
+2229-3/01,Fabricação de artefatos de material plástico para uso pessoal e doméstico,FALSE
+2229-3/02,Fabricação de artefatos de material plástico para usos industriais,FALSE
+2229-3/03,"Fabricação de artefatos de material plástico para uso na construção, exceto tubos e acessórios",FALSE
+2229-3/99,Fabricação de artefatos de material plástico para outros usos não especificados anteriormente,FALSE
+2311-7/00,Fabricação de vidro plano e de segurança,FALSE
+2312-5/00,Fabricação de embalagens de vidro,FALSE
+2319-2/00,Fabricação de artigos de vidro,FALSE
+2320-6/00,Fabricação de cimento,FALSE
+2330-3/01,"Fabricação de estruturas pré-moldadas de concreto armado, em série e sob encomenda",FALSE
+2330-3/02,Fabricação de artefatos de cimento para uso na construção,FALSE
+2330-3/03,Fabricação de artefatos de fibrocimento para uso na construção,FALSE
+2330-3/04,Fabricação de casas pré-moldadas de concreto,FALSE
+2330-3/05,Preparação de massa de concreto e argamassa para construção,FALSE
+2330-3/99,"Fabricação de outros artefatos e produtos de concreto, cimento, fibrocimento, gesso e materiais semelhantes",FALSE
+2341-9/00,Fabricação de produtos cerâmicos refratários,FALSE
+2342-7/01,Fabricação de azulejos e pisos,FALSE
+2342-7/02,"Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos",FALSE
+2349-4/01,Fabricação de material sanitário de cerâmica,FALSE
+2349-4/99,Fabricação de produtos cerâmicos não-refratários não especificados anteriormente,FALSE
+2391-5/01,"Britamento de pedras, exceto associado à extração",FALSE
+2391-5/02,"Aparelhamento de pedras para construção, exceto associado à extração",FALSE
+2391-5/03,"Aparelhamento de placas e execução de trabalhos em mármore, granito, ardósia e outras pedras",FALSE
+2392-3/00,Fabricação de cal e gesso,FALSE
+2399-1/01,"Decoração, lapidação, gravação, vitrificação e outros trabalhos em cerâmica, louça, vidro e cristal",FALSE
+2399-1/02,Fabricação de abrasivos,FALSE
+2399-1/99,Fabricação de outros produtos de minerais não-metálicos não especificados anteriormente,FALSE
+2411-3/00,Produção de ferro-gusa,FALSE
+2412-1/00,Produção de ferroligas,FALSE
+2421-1/00,Produção de semi-acabados de aço,FALSE
+2422-9/01,"Produção de laminados planos de aço ao carbono, revestidos ou não",FALSE
+2422-9/02,Produção de laminados planos de aços especiais,FALSE
+2423-7/01,Produção de tubos de aço sem costura,FALSE
+2423-7/02,"Produção de laminados longos de aço, exceto tubos",FALSE
+2424-5/01,Produção de arames de aço,FALSE
+2424-5/02,"Produção de relaminados, trefilados e perfilados de aço, exceto arames",FALSE
+2431-8/00,Produção de tubos de aço com costura,FALSE
+2439-3/00,Produção de outros tubos de ferro e aço,FALSE
+2441-5/01,Produção de alumínio e suas ligas em formas primárias,FALSE
+2441-5/02,Produção de laminados de alumínio,FALSE
+2442-3/00,Metalurgia dos metais preciosos,FALSE
+2443-1/00,Metalurgia do cobre,FALSE
+2449-1/01,Produção de zinco em formas primárias,FALSE
+2449-1/02,Produção de laminados de zinco,FALSE
+2449-1/03,Fabricação de ânodos para galvanoplastia,FALSE
+2449-1/99,Metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente,FALSE
+2451-2/00,Fundição de ferro e aço,FALSE
+2452-1/00,Fundição de metais não-ferrosos e suas ligas,FALSE
+2511-0/00,Fabricação de estruturas metálicas,FALSE
+2512-8/00,Fabricação de esquadrias de metal,FALSE
+2513-6/00,Fabricação de obras de caldeiraria pesada,FALSE
+2521-7/00,"Fabricação de tanques, reservatórios metálicos e caldeiras para aquecimento central",FALSE
+2522-5/00,"Fabricação de caldeiras geradoras de vapor, exceto para aquecimento central e para veículos",FALSE
+2531-4/01,Produção de forjados de aço,FALSE
+2531-4/02,Produção de forjados de metais não-ferrosos e suas ligas,FALSE
+2532-2/01,Produção de artefatos estampados de metal,FALSE
+2532-2/02,Metalurgia do pó,FALSE
+2539-0/01,"Serviços de usinagem, tornearia e solda",FALSE
+2539-0/02,Serviços de tratamento e revestimento em metais,FALSE
+2541-1/00,Fabricação de artigos de cutelaria,FALSE
+2542-0/00,"Fabricação de artigos de serralheria, exceto esquadrias",FALSE
+2543-8/00,Fabricação de ferramentas,FALSE
+2550-1/01,"Fabricação de equipamento bélico pesado, exceto veículos militares de combate",FALSE
+2550-1/02,"Fabricação de armas de fogo, outras armas e munições",FALSE
+2591-8/00,Fabricação de embalagens metálicas,FALSE
+2592-6/01,Fabricação de produtos de trefilados de metal padronizados,FALSE
+2592-6/02,"Fabricação de produtos de trefilados de metal, exceto padronizados",FALSE
+2593-4/00,Fabricação de artigos de metal para uso doméstico e pessoal,FALSE
+2599-3/01,Serviços de confecção de armações metálicas para a construção,FALSE
+2599-3/02,Serviço de corte e dobra de metais,FALSE
+2599-3/99,Fabricação de outros produtos de metal não especificados anteriormente,FALSE
+2610-8/00,Fabricação de componentes eletrônicos,FALSE
+2621-3/00,Fabricação de equipamentos de informática,FALSE
+2622-1/00,Fabricação de periféricos para equipamentos de informática,FALSE
+2631-1/00,"Fabricação de equipamentos transmissores de comunicação, peças e acessórios",FALSE
+2632-9/00,"Fabricação de aparelhos telefônicos e de outros equipamentos de comunicação, peças e acessórios",FALSE
+2640-0/00,"Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo",FALSE
+2651-5/00,"Fabricação de aparelhos e equipamentos de medida, teste e controle",FALSE
+2652-3/00,Fabricação de cronômetros e relógios,FALSE
+2660-4/00,Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação,FALSE
+2670-1/01,"Fabricação de equipamentos e instrumentos ópticos, peças e acessórios",FALSE
+2670-1/02,"Fabricação de aparelhos fotográficos e cinematográficos, peças e acessórios",FALSE
+2680-9/00,"Fabricação de mídias virgens, magnéticas e ópticas",FALSE
+2710-4/01,"Fabricação de geradores de corrente contínua e alternada, peças e acessórios",FALSE
+2710-4/02,"Fabricação de transformadores, indutores, conversores, sincronizadores e semelhantes, peças e acessórios",FALSE
+2710-4/03,"Fabricação de motores elétricos, peças e acessórios",FALSE
+2721-0/00,"Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores",FALSE
+2722-8/01,Fabricação de baterias e acumuladores para veículos automotores,FALSE
+2722-8/02,Recondicionamento de baterias e acumuladores para veículos automotores,FALSE
+2731-7/00,Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica,FALSE
+2732-5/00,Fabricação de material elétrico para instalações em circuito de consumo,FALSE
+2733-3/00,"Fabricação de fios, cabos e condutores elétricos isolados",FALSE
+2740-6/01,Fabricação de lâmpadas,FALSE
+2740-6/02,Fabricação de luminárias e outros equipamentos de iluminação,FALSE
+2751-1/00,"Fabricação de fogões, refrigeradores e máquinas de lavar e secar para uso doméstico, peças e acessórios",FALSE
+2759-7/01,"Fabricação de aparelhos elétricos de uso pessoal, peças e acessórios",FALSE
+2759-7/99,"Fabricação de outros aparelhos eletrodomésticos não especificados anteriormente, peças e acessórios",FALSE
+2790-2/01,"Fabricação de eletrodos, contatos e outros artigos de carvão e grafita para uso elétrico, eletroímãs e isoladores",FALSE
+2790-2/02,Fabricação de equipamentos para sinalização e alarme,FALSE
+2790-2/99,Fabricação de outros equipamentos e aparelhos elétricos não especificados anteriormente,FALSE
+2811-9/00,"Fabricação de motores e turbinas, peças e acessórios, exceto para aviões e veículos rodoviários",FALSE
+2812-7/00,"Fabricação de equipamentos hidráulicos e pneumáticos, peças e acessórios, exceto válvulas",FALSE
+2813-5/00,"Fabricação de válvulas, registros e dispositivos semelhantes, peças e acessórios",FALSE
+2814-3/01,"Fabricação de compressores para uso industrial, peças e acessórios",FALSE
+2814-3/02,"Fabricação de compressores para uso não industrial, peças e acessórios",FALSE
+2815-1/01,Fabricação de rolamentos para fins industriais,FALSE
+2815-1/02,"Fabricação de equipamentos de transmissão para fins industriais, exceto rolamentos",FALSE
+2821-6/01,"Fabricação de fornos industriais, aparelhos e equipamentos não-elétricos para instalações térmicas, peças e acessórios",FALSE
+2821-6/02,"Fabricação de estufas e fornos elétricos para fins industriais, peças e acessórios",FALSE
+2822-4/01,"Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de pessoas, peças e acessórios",FALSE
+2822-4/02,"Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas, peças e acessórios",FALSE
+2823-2/00,"Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial, peças e acessórios",FALSE
+2824-1/01,Fabricação de aparelhos e equipamentos de ar condicionado para uso industrial,FALSE
+2824-1/02,Fabricação de aparelhos e equipamentos de ar condicionado para uso não-industrial,FALSE
+2825-9/00,"Fabricação de máquinas e equipamentos para saneamento básico e ambiental, peças e acessórios",FALSE
+2829-1/01,"Fabricação de máquinas de escrever, calcular e outros equipamentos não-eletrônicos para escritório, peças e acessórios",FALSE
+2829-1/99,"Fabricação de outras máquinas e equipamentos de uso geral não especificados anteriormente, peças e acessórios",FALSE
+2831-3/00,"Fabricação de tratores agrícolas, peças e acessórios",FALSE
+2832-1/00,"Fabricação de equipamentos para irrigação agrícola, peças e acessórios",FALSE
+2833-0/00,"Fabricação de máquinas e equipamentos para a agricultura e pecuária, peças e acessórios, exceto para irrigação",FALSE
+2840-2/00,"Fabricação de máquinas-ferramenta, peças e acessórios",FALSE
+2851-8/00,"Fabricação de máquinas e equipamentos para a prospecção e extração de petróleo, peças e acessórios",FALSE
+2852-6/00,"Fabricação de outras máquinas e equipamentos para uso na extração mineral, peças e acessórios, exceto na extração de petróleo",FALSE
+2853-4/00,"Fabricação de tratores, peças e acessórios, exceto agrícolas",FALSE
+2854-2/00,"Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, peças e acessórios, exceto tratores",FALSE
+2861-5/00,"Fabricação de máquinas para a indústria metalúrgica, peças e acessórios, exceto máquinas-ferramenta",FALSE
+2862-3/00,"Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo, peças e acessórios",FALSE
+2863-1/00,"Fabricação de máquinas e equipamentos para a indústria têxtil, peças e acessórios",FALSE
+2864-0/00,"Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados, peças e acessórios",FALSE
+2865-8/00,"Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos, peças e acessórios",FALSE
+2866-6/00,"Fabricação de máquinas e equipamentos para a indústria do plástico, peças e acessórios",FALSE
+2869-1/00,"Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente, peças e acessórios",FALSE
+2910-7/01,"Fabricação de automóveis, camionetas e utilitários",FALSE
+2910-7/02,"Fabricação de chassis com motor para automóveis, camionetas e utilitários",FALSE
+2910-7/03,"Fabricação de motores para automóveis, camionetas e utilitários",FALSE
+2920-4/01,Fabricação de caminhões e ônibus,FALSE
+2920-4/02,Fabricação de motores para caminhões e ônibus,FALSE
+2930-1/01,"Fabricação de cabines, carrocerias e reboques para caminhões",FALSE
+2930-1/02,Fabricação de carrocerias para ônibus,FALSE
+2930-1/03,"Fabricação de cabines, carrocerias e reboques para outros veículos automotores, exceto caminhões e ônibus",FALSE
+2941-7/00,Fabricação de peças e acessórios para o sistema motor de veículos automotores,FALSE
+2942-5/00,Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores,FALSE
+2943-3/00,Fabricação de peças e acessórios para o sistema de freios de veículos automotores,FALSE
+2944-1/00,Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores,FALSE
+2945-0/00,"Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias",FALSE
+2949-2/01,Fabricação de bancos e estofados para veículos automotores,FALSE
+2949-2/99,Fabricação de outras peças e acessórios para veículos automotores não especificadas anteriormente,FALSE
+2950-6/00,Recondicionamento e recuperação de motores para veículos automotores,FALSE
+3011-3/01,Construção de embarcações de grande porte,FALSE
+3011-3/02,"Construção de embarcações para uso comercial e para usos especiais, exceto de grande porte",FALSE
+3012-1/00,Construção de embarcações para esporte e lazer,FALSE
+3031-8/00,"Fabricação de locomotivas, vagões e outros materiais rodantes",FALSE
+3032-6/00,Fabricação de peças e acessórios para veículos ferroviários,FALSE
+3041-5/00,Fabricação de aeronaves,FALSE
+3042-3/00,"Fabricação de turbinas, motores e outros componentes e peças para aeronaves",FALSE
+3050-4/00,Fabricação de veículos militares de combate,FALSE
+3091-1/01,Fabricação de motocicletas,FALSE
+3091-1/02,Fabricação de peças e acessórios para motocicletas,FALSE
+3092-0/00,"Fabricação de bicicletas e triciclos não-motorizados, peças e acessórios",FALSE
+3099-7/00,Fabricação de equipamentos de transporte não especificados anteriormente,FALSE
+3101-2/00,Fabricação de móveis com predominância de madeira,FALSE
+3102-1/00,Fabricação de móveis com predominância de metal,FALSE
+3103-9/00,"Fabricação de móveis de outros materiais, exceto madeira e metal",FALSE
+3104-7/00,Fabricação de colchões,FALSE
+3211-6/01,Lapidação de gemas,FALSE
+3211-6/02,Fabricação de artefatos de joalheria e ourivesaria,FALSE
+3211-6/03,Cunhagem de moedas e medalhas,FALSE
+3212-4/00,Fabricação de bijuterias e artefatos semelhantes,FALSE
+3220-5/00,"Fabricação de instrumentos musicais, peças e acessórios",FALSE
+3230-2/00,Fabricação de artefatos para pesca e esporte,FALSE
+3240-0/01,Fabricação de jogos eletrônicos,FALSE
+3240-0/02,"Fabricação de mesas de bilhar, de sinuca e acessórios não associada à locação",FALSE
+3240-0/03,"Fabricação de mesas de bilhar, de sinuca e acessórios associada à locação",FALSE
+3240-0/99,Fabricação de outros brinquedos e jogos recreativos não especificados anteriormente,FALSE
+3250-7/01,"Fabricação de instrumentos não-eletrônicos e utensílios para uso médico, cirúrgico, odontológico e de laboratório",FALSE
+3250-7/02,"Fabricação de mobiliário para uso médico, cirúrgico, odontológico e de laboratório",FALSE
+3250-7/03,Fabricação de aparelhos e utensílios para correção de defeitos físicos e aparelhos ortopédicos em geral sob encomenda,FALSE
+3250-7/04,"Fabricação de aparelhos e utensílios para correção de defeitos físicos e aparelhos ortopédicos em geral, exceto sob encomenda",FALSE
+3250-7/05,Fabricação de materiais para medicina e odontologia,FALSE
+3250-7/06,Serviços de prótese dentária,FALSE
+3250-7/07,Fabricação de artigos ópticos,FALSE
+3250-7/09,Serviço de laboratório óptico,FALSE
+3291-4/00,"Fabricação de escovas, pincéis e vassouras",FALSE
+3292-2/01,Fabricação de roupas de proteção e segurança e resistentes a fogo,FALSE
+3292-2/02,Fabricação de equipamentos e acessórios para segurança pessoal e profissional,FALSE
+3299-0/01,Fabricação de guarda-chuvas e similares,FALSE
+3299-0/02,"Fabricação de canetas, lápis e outros artigos para escritório",FALSE
+3299-0/03,"Fabricação de letras, letreiros e placas de qualquer material, exceto luminosos",FALSE
+3299-0/04,Fabricação de painéis e letreiros luminosos,FALSE
+3299-0/05,Fabricação de aviamentos para costura,FALSE
+3299-0/06,"Fabricação de velas, inclusive decorativas",FALSE
+3299-0/99,Fabricação de produtos diversos não especificados anteriormente,FALSE
+3311-2/00,"Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos",FALSE
+3312-1/02,"Manutenção e reparação de aparelhos e instrumentos de medida, teste e controle",FALSE
+3312-1/03,Manutenção e reparação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação,FALSE
+3312-1/04,Manutenção e reparação de equipamentos e instrumentos ópticos,FALSE
+3313-9/01,"Manutenção e reparação de geradores, transformadores e motores elétricos",FALSE
+3313-9/02,"Manutenção e reparação de baterias e acumuladores elétricos, exceto para veículos",FALSE
+3313-9/99,"Manutenção e reparação de máquinas, aparelhos e materiais elétricos não especificados anteriormente",FALSE
+3314-7/01,Manutenção e reparação de máquinas motrizes não-elétricas,FALSE
+3314-7/02,"Manutenção e reparação de equipamentos hidráulicos e pneumáticos, exceto válvulas",FALSE
+3314-7/03,Manutenção e reparação de válvulas industriais,FALSE
+3314-7/04,Manutenção e reparação de compressores,FALSE
+3314-7/05,Manutenção e reparação de equipamentos de transmissão para fins industriais,FALSE
+3314-7/06,"Manutenção e reparação de máquinas, aparelhos e equipamentos para instalações térmicas",FALSE
+3314-7/07,Manutenção e reparação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial,FALSE
+3314-7/08,"Manutenção e reparação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas",FALSE
+3314-7/09,"Manutenção e reparação de máquinas de escrever, calcular e de outros equipamentos não-eletrônicos para escritório",FALSE
+3314-7/10,Manutenção e reparação de máquinas e equipamentos para uso geral não especificados anteriormente,FALSE
+3314-7/11,Manutenção e reparação de máquinas e equipamentos para agricultura e pecuária,FALSE
+3314-7/12,Manutenção e reparação de tratores agrícolas,FALSE
+3314-7/13,Manutenção e reparação de máquinas-ferramenta,FALSE
+3314-7/14,Manutenção e reparação de máquinas e equipamentos para a prospecção e extração de petróleo,FALSE
+3314-7/15,"Manutenção e reparação de máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo",FALSE
+3314-7/16,"Manutenção e reparação de tratores, exceto agrícolas",FALSE
+3314-7/17,"Manutenção e reparação de máquinas e equipamentos de terraplenagem, pavimentação e construção, exceto tratores",FALSE
+3314-7/18,"Manutenção e reparação de máquinas para a indústria metalúrgica, exceto máquinas-ferramenta",FALSE
+3314-7/19,"Manutenção e reparação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo",FALSE
+3314-7/20,"Manutenção e reparação de máquinas e equipamentos para a indústria têxtil, do vestuário, do couro e calçados",FALSE
+3314-7/21,"Manutenção e reparação de máquinas e aparelhos para a indústria de celulose, papel e papelão e artefatos",FALSE
+3314-7/22,Manutenção e reparação de máquinas e aparelhos para a indústria do plástico,FALSE
+3314-7/99,Manutenção e reparação de outras máquinas e equipamentos para usos industriais não especificados anteriormente,FALSE
+3315-5/00,Manutenção e reparação de veículos ferroviários,FALSE
+3316-3/01,"Manutenção e reparação de aeronaves, exceto a manutenção na pista",FALSE
+3316-3/02,Manutenção de aeronaves na pista,FALSE
+3317-1/01,Manutenção e reparação de embarcações e estruturas flutuantes,FALSE
+3317-1/02,Manutenção e reparação de embarcações para esportes e lazer,FALSE
+3319-8/00,Manutenção e reparação de equipamentos e produtos não especificados anteriormente,FALSE
+3321-0/00,Instalação de máquinas e equipamentos industriais,FALSE
+3329-5/01,Serviços de montagem de móveis de qualquer material,FALSE
+3329-5/99,Instalação de outros equipamentos não especificados anteriormente,FALSE
+3511-5/01,Geração de energia elétrica,FALSE
+3511-5/02,Atividades de coordenação e controle da operação da geração e transmissão de energia elétrica,FALSE
+3512-3/00,Transmissão de energia elétrica,FALSE
+3513-1/00,Comércio atacadista de energia elétrica,FALSE
+3514-0/00,Distribuição de energia elétrica,FALSE
+3520-4/01,Produção de gás; processamento de gás natural,FALSE
+3520-4/02,Distribuição de combustíveis gasosos por redes urbanas,FALSE
+3530-1/00,"Produção e distribuição de vapor, água quente e ar condicionado",FALSE
+3600-6/01,"Captação, tratamento e distribuição de água",FALSE
+3600-6/02,Distribuição de água por caminhões,FALSE
+3701-1/00,Gestão de redes de esgoto,FALSE
+3702-9/00,"Atividades relacionadas a esgoto, exceto a gestão de redes",FALSE
+3811-4/00,Coleta de resíduos não-perigosos,FALSE
+3812-2/00,Coleta de resíduos perigosos,FALSE
+3821-1/00,Tratamento e disposição de resíduos não-perigosos,FALSE
+3822-0/00,Tratamento e disposição de resíduos perigosos,FALSE
+3831-9/01,Recuperação de sucatas de alumínio,FALSE
+3831-9/99,"Recuperação de materiais metálicos, exceto alumínio",FALSE
+3832-7/00,Recuperação de materiais plásticos,FALSE
+3839-4/01,Usinas de compostagem,FALSE
+3839-4/99,Recuperação de materiais não especificados anteriormente,FALSE
+3900-5/00,Descontaminação e outros serviços de gestão de resíduos,FALSE
+4110-7/00,Incorporação de empreendimentos imobiliários,FALSE
+4120-4/00,Construção de edifícios,FALSE
+4211-1/01,Construção de rodovias e ferrovias,FALSE
+4211-1/02,Pintura para sinalização em pistas rodoviárias e aeroportos,FALSE
+4212-0/00,Construção de obras de arte especiais,FALSE
+4213-8/00,"Obras de urbanização - ruas, praças e calçadas",FALSE
+4221-9/01,Construção de barragens e represas para geração de energia elétrica,FALSE
+4221-9/02,Construção de estações e redes de distribuição de energia elétrica,FALSE
+4221-9/03,Manutenção de redes de distribuição de energia elétrica,FALSE
+4221-9/04,Construção de estações e redes de telecomunicações,FALSE
+4221-9/05,Manutenção de estações e redes de telecomunicações,FALSE
+4222-7/01,"Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação",FALSE
+4222-7/02,Obras de irrigação,FALSE
+4223-5/00,"Construção de redes de transportes por dutos, exceto para água e esgoto",FALSE
+4291-0/00,"Obras portuárias, marítimas e fluviais",FALSE
+4292-8/01,Montagem de estruturas metálicas,FALSE
+4292-8/02,Obras de montagem industrial,FALSE
+4299-5/01,Construção de instalações esportivas e recreativas,FALSE
+4299-5/99,Outras obras de engenharia civil não especificadas anteriormente,FALSE
+4311-8/01,Demolição de edifícios e outras estruturas,FALSE
+4311-8/02,Preparação de canteiro e limpeza de terreno,FALSE
+4312-6/00,Perfurações e sondagens,FALSE
+4313-4/00,Obras de terraplenagem,FALSE
+4319-3/00,Serviços de preparação do terreno não especificados anteriormente,FALSE
+4321-5/00,Instalação e manutenção elétrica,FALSE
+4322-3/01,"Instalações hidráulicas, sanitárias e de gás",FALSE
+4322-3/02,"Instalação e manutenção de sistemas centrais de ar condicionado, de ventilação e refrigeração",FALSE
+4322-3/03,Instalações de sistema de prevenção contra incêndio,FALSE
+4329-1/01,Instalação de painéis publicitários,FALSE
+4329-1/02,"Instalação de equipamentos para orientação à navegação marítima, fluvial e lacustre",FALSE
+4329-1/03,"Instalação, manutenção e reparação de elevadores, escadas e esteiras rolantes",FALSE
+4329-1/04,"Montagem e instalação de sistemas e equipamentos de iluminação e sinalização em vias públicas, portos e aeroportos",FALSE
+4329-1/05,"Tratamentos térmicos, acústicos ou de vibração",FALSE
+4329-1/99,Outras obras de instalações em construções não especificadas anteriormente,FALSE
+4330-4/01,Impermeabilização em obras de engenharia civil,FALSE
+4330-4/02,"Instalação de portas, janelas, tetos, divisórias e armários embutidos de qualquer material",FALSE
+4330-4/03,Obras de acabamento em gesso e estuque,FALSE
+4330-4/04,Serviços de pintura de edifícios em geral,FALSE
+4330-4/05,Aplicação de revestimentos e de resinas em interiores e exteriores,FALSE
+4330-4/99,Outras obras de acabamento da construção,FALSE
+4391-6/00,Obras de fundações,FALSE
+4399-1/01,Administração de obras,FALSE
+4399-1/02,Montagem e desmontagem de andaimes e outras estruturas temporárias,FALSE
+4399-1/03,Obras de alvenaria,FALSE
+4399-1/04,Serviços de operação e fornecimento de equipamentos para transporte e elevação de cargas e pessoas para uso em obras,FALSE
+4399-1/05,Perfuração e construção de poços de água,FALSE
+4399-1/99,Serviços especializados para construção não especificados anteriormente,FALSE
+4511-1/01,"Comércio a varejo de automóveis, camionetas e utilitários novos",FALSE
+4511-1/02,"Comércio a varejo de automóveis, camionetas e utilitários usados",FALSE
+4511-1/03,"Comércio por atacado de automóveis, camionetas e utilitários novos e usados",FALSE
+4511-1/04,Comércio por atacado de caminhões novos e usados,FALSE
+4511-1/05,Comércio por atacado de reboques e semi-reboques novos e usados,FALSE
+4511-1/06,Comércio por atacado de ônibus e microônibus novos e usados,FALSE
+4512-9/01,Representantes comerciais e agentes do comércio de veículos automotores,FALSE
+4512-9/02,Comércio sob consignação de veículos automotores,FALSE
+4520-0/01,Serviços de manutenção e reparação mecânica de veículos automotores,FALSE
+4520-0/02,Serviços de lanternagem ou funilaria e pintura de veículos automotores,FALSE
+4520-0/03,Serviços de manutenção e reparação elétrica de veículos automotores,FALSE
+4520-0/04,Serviços de alinhamento e balanceamento de veículos automotores,FALSE
+4520-0/05,"Serviços de lavagem, lubrificação e polimento de veículos automotores",FALSE
+4520-0/06,Serviços de borracharia para veículos automotores,FALSE
+4520-0/07,"Serviços de instalação, manutenção e reparação de acessórios para veículos automotores",FALSE
+4520-0/08,Serviços de capotaria,FALSE
+4530-7/01,Comércio por atacado de peças e acessórios novos para veículos automotores,FALSE
+4530-7/02,Comércio por atacado de pneumáticos e câmaras-de-ar,FALSE
+4530-7/03,Comércio a varejo de peças e acessórios novos para veículos automotores,FALSE
+4530-7/04,Comércio a varejo de peças e acessórios usados para veículos automotores,FALSE
+4530-7/05,Comércio a varejo de pneumáticos e câmaras-de-ar,FALSE
+4530-7/06,Representantes comerciais e agentes do comércio de peças e acessórios novos e usados para veículos automotores,FALSE
+4541-2/01,Comércio por atacado de motocicletas e motonetas,FALSE
+4541-2/02,Comércio por atacado de peças e acessórios para motocicletas e motonetas,FALSE
+4541-2/03,Comércio a varejo de motocicletas e motonetas novas,FALSE
+4541-2/04,Comércio a varejo de motocicletas e motonetas usadas,FALSE
+4541-2/05,Comércio a varejo de peças e acessórios para motocicletas e motonetas,FALSE
+4542-1/01,"Representantes comerciais e agentes do comércio de motocicletas e motonetas, peças e acessórios",FALSE
+4542-1/02,Comércio sob consignação de motocicletas e motonetas,FALSE
+4543-9/00,Manutenção e reparação de motocicletas e motonetas,FALSE
+4611-7/00,Representantes comerciais e agentes do comércio de matérias-primas agrícolas e animais vivos,FALSE
+4612-5/00,"Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos",FALSE
+4613-3/00,"Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens",FALSE
+4614-1/00,"Representantes comerciais e agentes do comércio de máquinas, equipamentos, embarcações e aeronaves",FALSE
+4615-0/00,"Representantes comerciais e agentes do comércio de eletrodomésticos, móveis e artigos de uso doméstico",FALSE
+4616-8/00,"Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem",FALSE
+4617-6/00,"Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo",FALSE
+4618-4/01,"Representantes comerciais e agentes do comércio de medicamentos, cosméticos e produtos de perfumaria",FALSE
+4618-4/02,Representantes comerciais e agentes do comércio de instrumentos e materiais odonto-médicohospitalares,FALSE
+4618-4/03,"Representantes comerciais e agentes do comércio de jornais, revistas e outras publicações",FALSE
+4618-4/99,Outros representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente,FALSE
+4619-2/00,Representantes comerciais e agentes do comércio de mercadorias em geral não especializado,FALSE
+4621-4/00,Comércio atacadista de café em grão,FALSE
+4622-2/00,Comércio atacadista de soja,FALSE
+4623-1/01,Comércio atacadista de animais vivos,FALSE
+4623-1/02,"Comércio atacadista de couros, lãs, peles e outros subprodutos não-comestíveis de origem animal",FALSE
+4623-1/03,Comércio atacadista de algodão,FALSE
+4623-1/04,Comércio atacadista de fumo em folha não beneficiado,FALSE
+4623-1/05,Comércio atacadista de cacau *,FALSE
+4623-1/06,"Comércio atacadista de sementes, flores, plantas e gramas",FALSE
+4623-1/07,Comércio atacadista de sisal,FALSE
+4623-1/08,Comércio atacadista de matérias-primas agrícolas com atividade de fracionamento e acondicionamento associada,FALSE
+4623-1/09,Comércio atacadista de alimentos para animais,FALSE
+4623-1/99,Comércio atacadista de matérias-primas agrícolas não especificadas anteriormente,FALSE
+4631-1/00,Comércio atacadista de leite e laticínios,FALSE
+4632-0/01,Comércio atacadista de cereais e leguminosas beneficiados,FALSE
+4632-0/02,"Comércio atacadista de farinhas, amidos e féculas",FALSE
+4632-0/03,"Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas, com atividade de fracionamento e acondicionamento associada",FALSE
+4633-8/01,"Comércio atacadista de frutas, verduras, raízes, tubérculos, hortaliças e legumes frescos",FALSE
+4633-8/02,Comércio atacadista de aves vivas e ovos,FALSE
+4633-8/03,Comércio atacadista de coelhos e outros pequenos animais vivos para alimentação,FALSE
+4634-6/01,Comércio atacadista de carnes bovinas e suínas e derivados,FALSE
+4634-6/02,Comércio atacadista de aves abatidas e derivados,FALSE
+4634-6/03,Comércio atacadista de pescados e frutos do mar,FALSE
+4634-6/99,Comércio atacadista de carnes e derivados de outros animais,FALSE
+4635-4/01,Comércio atacadista de água mineral,FALSE
+4635-4/02,"Comércio atacadista de cerveja, chope e refrigerante",FALSE
+4635-4/03,Comércio atacadista de bebidas com atividade de fracionamento e acondicionamento associada,FALSE
+4635-4/99,Comércio atacadista de bebidas não especificadas anteriormente,FALSE
+4636-2/01,Comércio atacadista de fumo beneficiado,FALSE
+4636-2/02,"Comércio atacadista de cigarros, cigarrilhas e charutos",FALSE
+4637-1/01,"Comércio atacadista de café torrado, moído e solúvel",FALSE
+4637-1/02,Comércio atacadista de açúcar,FALSE
+4637-1/03,Comércio atacadista de óleos e gorduras,FALSE
+4637-1/04,"Comércio atacadista de pães, bolos, biscoitos e similares",FALSE
+4637-1/05,Comércio atacadista de massas alimentícias,FALSE
+4637-1/06,Comércio atacadista de sorvetes,FALSE
+4637-1/07,"Comércio atacadista de chocolates, confeitos, balas, bombons e semelhantes",FALSE
+4637-1/99,Comércio atacadista especializado em outros produtos alimentícios não especificados anteriormente,FALSE
+4639-7/01,Comércio atacadista de produtos alimentícios em geral,FALSE
+4639-7/02,"Comércio atacadista de produtos alimentícios em geral, com atividade de fracionamento e acondicionamento associada",FALSE
+4641-9/01,Comércio atacadista de tecidos,FALSE
+4641-9/02,"Comércio atacadista de artigos de cama, mesa e banho",FALSE
+4641-9/03,Comércio atacadista de artigos de armarinho,FALSE
+4642-7/01,"Comércio atacadista de artigos do vestuário e acessórios, exceto profissionais e de segurança",FALSE
+4642-7/02,Comércio atacadista de roupas e acessórios para uso profissional e de segurança do trabalho,FALSE
+4643-5/01,Comércio atacadista de calçados,FALSE
+4643-5/02,"Comércio atacadista de bolsas, malas e artigos de viagem",FALSE
+4644-3/01,Comércio atacadista de medicamentos e drogas de uso humano,FALSE
+4644-3/02,Comércio atacadista de medicamentos e drogas de uso veterinário,FALSE
+4645-1/01,"Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, hospitalar e de laboratórios",FALSE
+4645-1/02,Comércio atacadista de próteses e artigos de ortopedia,FALSE
+4645-1/03,Comércio atacadista de produtos odontológicos,FALSE
+4646-0/01,Comércio atacadista de cosméticos e produtos de perfumaria,FALSE
+4646-0/02,Comércio atacadista de produtos de higiene pessoal,FALSE
+4647-8/01,Comércio atacadista de artigos de escritório e de papelaria,FALSE
+4647-8/02,"Comércio atacadista de livros, jornais e outras publicações",FALSE
+4649-4/01,Comércio atacadista de equipamentos elétricos de uso pessoal e doméstico,FALSE
+4649-4/02,Comércio atacadista de aparelhos eletrônicos de uso pessoal e doméstico,FALSE
+4649-4/03,"Comércio atacadista de bicicletas, triciclos e outros veículos recreativos",FALSE
+4649-4/04,Comércio atacadista de móveis e artigos de colchoaria,FALSE
+4649-4/05,Comércio atacadista de artigos de tapeçaria; persianas e cortinas,FALSE
+4649-4/06,"Comércio atacadista de lustres, luminárias e abajures",FALSE
+4649-4/07,"Comércio atacadista de filmes, CDs, DVDs, fitas e discos",FALSE
+4649-4/08,"Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar",FALSE
+4649-4/09,"Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar, com atividade de fracionamento e acondicionamento associada",FALSE
+4649-4/10,"Comércio atacadista de jóias, relógios e bijuterias, inclusive pedras preciosas e semipreciosas lapidadas",FALSE
+4649-4/99,Comércio atacadista de outros equipamentos e artigos de uso pessoal e doméstico não especificados anteriormente,FALSE
+4651-6/01,Comércio atacadista de equipamentos de informática,FALSE
+4651-6/02,Comércio atacadista de suprimentos para informática,FALSE
+4652-4/00,Comércio atacadista de componentes eletrônicos e equipamentos de telefonia e comunicação,FALSE
+4661-3/00,"Comércio atacadista de máquinas, aparelhos e equipamentos para uso agropecuário; partes e peças",FALSE
+4662-1/00,"Comércio atacadista de máquinas, equipamentos para terraplenagem, mineração e construção; partes e peças",FALSE
+4663-0/00,Comércio atacadista de máquinas e equipamentos para uso industrial; partes e peças,FALSE
+4664-8/00,"Comércio atacadista de máquinas, aparelhos e equipamentos para uso odonto-médico-hospitalar; partes e peças",FALSE
+4665-6/00,Comércio atacadista de máquinas e equipamentos para uso comercial; partes e peças,FALSE
+4669-9/01,Comércio atacadista de bombas e compressores; partes e peças,FALSE
+4669-9/99,Comércio atacadista de outras máquinas e equipamentos não especificados anteriormente; partes e peças,FALSE
+4671-1/00,Comércio atacadista de madeira e produtos derivados,FALSE
+4672-9/00,Comércio atacadista de ferragens e ferramentas,FALSE
+4673-7/00,Comércio atacadista de material elétrico,FALSE
+4674-5/00,Comércio atacadista de cimento,FALSE
+4679-6/01,"Comércio atacadista de tintas, vernizes e similares",FALSE
+4679-6/02,Comércio atacadista de mármores e granitos,FALSE
+4679-6/03,"Comércio atacadista de vidros, espelhos e vitrais",FALSE
+4679-6/04,Comércio atacadista especializado de materiais de construção não especificados anteriormente,FALSE
+4679-6/99,Comércio atacadista de materiais de construção em geral,FALSE
+4681-8/01,"Comércio atacadista de álcool carburante, biodiesel, gasolina e demais derivados de petróleo, exceto lubrificantes, não realizado por transportador retalhista (TRR)",FALSE
+4681-8/02,Comércio atacadista de combustíveis realizado por transportador retalhista (TRR),FALSE
+4681-8/03,"Comércio atacadista de combustíveis de origem vegetal, exceto álcool carburante",FALSE
+4681-8/04,Comércio atacadista de combustíveis de origem mineral em bruto,FALSE
+4681-8/05,Comércio atacadista de lubrificantes,FALSE
+4682-6/00,Comércio atacadista de gás liqüefeito de petróleo (GLP),FALSE
+4683-4/00,"Comércio atacadista de defensivos agrícolas, adubos, fertilizantes e corretivos do solo",FALSE
+4684-2/01,Comércio atacadista de resinas e elastômeros,FALSE
+4684-2/02,Comércio atacadista de solventes,FALSE
+4684-2/99,Comércio atacadista de outros produtos químicos e petroquímicos não especificados anteriormente,FALSE
+4685-1/00,"Comércio atacadista de produtos siderúrgicos e metalúrgicos, exceto para construção",FALSE
+4686-9/01,Comércio atacadista de papel e papelão em bruto,FALSE
+4686-9/02,Comércio atacadista de embalagens,FALSE
+4687-7/01,Comércio atacadista de resíduos de papel e papelão,FALSE
+4687-7/02,"Comércio atacadista de resíduos e sucatas não-metálicos, exceto de papel e papelão",FALSE
+4687-7/03,Comércio atacadista de resíduos e sucatas metálicos,FALSE
+4689-3/01,"Comércio atacadista de produtos da extração mineral, exceto combustíveis",FALSE
+4689-3/02,Comércio atacadista de fios e fibras têxteis beneficiados *,FALSE
+4689-3/99,Comércio atacadista especializado em outros produtos intermediários não especificados anteriormente,FALSE
+4691-5/00,"Comércio atacadista de mercadorias em geral, com predominância de produtos alimentícios",FALSE
+4692-3/00,"Comércio atacadista de mercadorias em geral, com predominância de insumos agropecuários",FALSE
+4693-1/00,"Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários",FALSE
+4711-3/01,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - hipermercados",FALSE
+4711-3/02,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados",FALSE
+4712-1/00,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",FALSE
+4713-0/01,Lojas de departamentos ou magazines,FALSE
+4713-0/02,"Lojas de variedades, exceto lojas de departamentos ou magazines",FALSE
+4713-0/03,Lojas duty free de aeroportos internacionais,FALSE
+4721-1/02,Padaria e confeitaria com predominância de revenda,FALSE
+4721-1/03,Comércio varejista de laticínios e frios,FALSE
+4721-1/04,"Comércio varejista de doces, balas, bombons e semelhantes",FALSE
+4722-9/01,Comércio varejista de carnes - açougues,FALSE
+4722-9/02,Peixaria,FALSE
+4723-7/00,Comércio varejista de bebidas,FALSE
+4724-5/00,Comércio varejista de hortifrutigranjeiros,FALSE
+4729-6/01,Tabacaria,FALSE
+4729-6/02,Comércio varejista de mercadorias em lojas de conveniência,FALSE
+4729-6/99,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,FALSE
+4731-8/00,Comércio varejista de combustíveis para veículos automotores,FALSE
+4732-6/00,Comércio varejista de lubrificantes,FALSE
+4741-5/00,Comércio varejista de tintas e materiais para pintura,FALSE
+4742-3/00,Comércio varejista de material elétrico,FALSE
+4743-1/00,Comércio varejista de vidros,FALSE
+4744-0/01,Comércio varejista de ferragens e ferramentas,FALSE
+4744-0/02,Comércio varejista de madeira e artefatos,FALSE
+4744-0/03,Comércio varejista de materiais hidráulicos,FALSE
+4744-0/04,"Comércio varejista de cal, areia, pedra britada, tijolos e telhas",FALSE
+4744-0/05,Comércio varejista de materiais de construção não especificados anteriormente,FALSE
+4744-0/06,Comércio varejista de pedras para revestimento,FALSE
+4744-0/99,Comércio varejista de materiais de construção em geral,FALSE
+4751-2/01,Comércio varejista especializado de equipamentos e suprimentos de informática,FALSE
+4751-2/02,Recarga de cartuchos para equipamentos de informática,FALSE
+4752-1/00,Comércio varejista especializado de equipamentos de telefonia e comunicação,FALSE
+4753-9/00,Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo,FALSE
+4754-7/01,Comércio varejista de móveis,FALSE
+4754-7/02,Comércio varejista de artigos de colchoaria,FALSE
+4754-7/03,Comércio varejista de artigos de iluminação,FALSE
+4755-5/01,Comércio varejista de tecidos,FALSE
+4755-5/02,Comercio varejista de artigos de armarinho,FALSE
+4755-5/03,"Comercio varejista de artigos de cama, mesa e banho",FALSE
+4756-3/00,Comércio varejista especializado de instrumentos musicais e acessórios,FALSE
+4757-1/00,"Comércio varejista especializado de peças e acessórios para aparelhos eletroeletrônicos para uso doméstico, exceto informática e comunicação",FALSE
+4759-8/01,"Comércio varejista de artigos de tapeçaria, cortinas e persianas",FALSE
+4759-8/99,Comércio varejista de outros artigos de uso doméstico não especificados anteriormente,FALSE
+4761-0/01,Comércio varejista de livros,FALSE
+4761-0/02,Comércio varejista de jornais e revistas,FALSE
+4761-0/03,Comércio varejista de artigos de papelaria,FALSE
+4762-8/00,"Comércio varejista de discos, CDs, DVDs e fitas",FALSE
+4763-6/01,Comércio varejista de brinquedos e artigos recreativos,FALSE
+4763-6/02,Comércio varejista de artigos esportivos,FALSE
+4763-6/03,Comércio varejista de bicicletas e triciclos; peças e acessórios,FALSE
+4763-6/04,"Comércio varejista de artigos de caça, pesca e camping",FALSE
+4763-6/05,Comércio varejista de embarcações e outros veículos recreativos; peças e acessórios,FALSE
+4771-7/01,"Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas",FALSE
+4771-7/02,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",FALSE
+4771-7/03,Comércio varejista de produtos farmacêuticos homeopáticos,FALSE
+4771-7/04,Comércio varejista de medicamentos veterinários,FALSE
+4772-5/00,"Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal",FALSE
+4773-3/00,Comércio varejista de artigos médicos e ortopédicos,FALSE
+4774-1/00,Comércio varejista de artigos de óptica,FALSE
+4781-4/00,Comércio varejista de artigos do vestuário e acessórios,FALSE
+4782-2/01,Comércio varejista de calçados,FALSE
+4782-2/02,Comércio varejista de artigos de viagem,FALSE
+4783-1/01,Comércio varejista de artigos de joalheria,FALSE
+4783-1/02,Comércio varejista de artigos de relojoaria,FALSE
+4784-9/00,Comércio varejista de gás liqüefeito de petróleo (GLP),FALSE
+4785-7/01,Comércio varejista de antigüidades,FALSE
+4785-7/99,Comércio varejista de outros artigos usados,FALSE
+4789-0/01,"Comércio varejista de suvenires, bijuterias e artesanatos",FALSE
+4789-0/02,Comércio varejista de plantas e flores naturais,FALSE
+4789-0/03,Comércio varejista de objetos de arte,FALSE
+4789-0/04,Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação,FALSE
+4789-0/05,Comércio varejista de produtos saneantes domissanitários,FALSE
+4789-0/06,Comércio varejista de fogos de artifício e artigos pirotécnicos,FALSE
+4789-0/07,Comércio varejista de equipamentos para escritório,FALSE
+4789-0/08,Comércio varejista de artigos fotográficos e para filmagem,FALSE
+4789-0/09,Comércio varejista de armas e munições,FALSE
+4789-0/99,Comércio varejista de outros produtos não especificados anteriormente,FALSE
+4911-6/00,Transporte ferroviário de carga,FALSE
+4912-4/01,Transporte ferroviário de passageiros intermunicipal e interestadual,FALSE
+4912-4/02,Transporte ferroviário de passageiros municipal e em região metropolitana,FALSE
+4912-4/03,Transporte metroviário,FALSE
+4921-3/01,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal",FALSE
+4921-3/02,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal em região metropolitana",FALSE
+4922-1/01,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, exceto em região metropolitana",FALSE
+4922-1/02,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, interestadual",FALSE
+4922-1/03,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, internacional",FALSE
+4923-0/01,Serviço de táxi,FALSE
+4923-0/02,Serviço de transporte de passageiros - locação de automóveis com motorista,FALSE
+4924-8/00,Transporte escolar,FALSE
+4929-9/01,"Transporte rodoviário coletivo de passageiros, sob regime de fretamento, municipal",FALSE
+4929-9/02,"Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional",FALSE
+4929-9/03,"Organização de excursões em veículos rodoviários próprios, municipal",FALSE
+4929-9/04,"Organização de excursões em veículos rodoviários próprios, intermunicipal, interestadual e internacional",FALSE
+4929-9/99,Outros transportes rodoviários de passageiros não especificados anteriormente,FALSE
+4930-2/01,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal",FALSE
+4930-2/02,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",FALSE
+4930-2/03,Transporte rodoviário de produtos perigosos,FALSE
+4930-2/04,Transporte rodoviário de mudanças,FALSE
+4940-0/00,Transporte dutoviário,FALSE
+4950-7/00,"Trens turísticos, teleféricos e similares",FALSE
+5011-4/01,Transporte marítimo de cabotagem - Carga,FALSE
+5011-4/02,Transporte marítimo de cabotagem - passageiros,FALSE
+5012-2/01,Transporte marítimo de longo curso - Carga,FALSE
+5012-2/02,Transporte marítimo de longo curso - Passageiros,FALSE
+5021-1/01,"Transporte por navegação interior de carga, municipal, exceto travessia",FALSE
+5021-1/02,"Transporte por navegação interior de carga, intermunicipal, interestadual e internacional, exceto travessia",FALSE
+5022-0/01,"Transporte por navegação interior de passageiros em linhas regulares, municipal, exceto travessia",FALSE
+5022-0/02,"Transporte por navegação interior de passageiros em linhas regulares, intermunicipal, interestadual e internacional, exceto travessia",FALSE
+5030-1/01,Navegação de apoio marítimo,FALSE
+5030-1/02,Navegação de apoio portuário,FALSE
+5030-1/03,Serviços de rebocadores e empurradores,FALSE
+5091-2/01,"Transporte por navegação de travessia, municipal",FALSE
+5091-2/02,"Transporte por navegação de travessia intermunicipal, interestadual e internacional",FALSE
+5099-8/01,Transporte aquaviário para passeios turísticos,FALSE
+5099-8/99,Outros transportes aquaviários não especificados anteriormente,FALSE
+5111-1/00,Transporte aéreo de passageiros regular,FALSE
+5112-9/01,Serviço de táxi aéreo e locação de aeronaves com tripulação,FALSE
+5112-9/99,Outros serviços de transporte aéreo de passageiros não-regular,FALSE
+5120-0/00,Transporte aéreo de carga,FALSE
+5130-7/00,Transporte espacial,FALSE
+5211-7/01,Armazéns gerais - emissão de warrant,FALSE
+5211-7/02,Guarda-móveis,FALSE
+5211-7/99,"Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis",FALSE
+5212-5/00,Carga e descarga,FALSE
+5221-4/00,"Concessionárias de rodovias, pontes, túneis e serviços relacionados",FALSE
+5222-2/00,Terminais rodoviários e ferroviários,FALSE
+5223-1/00,Estacionamento de veículos,FALSE
+5229-0/01,"Serviços de apoio ao transporte por táxi, inclusive centrais de chamada",FALSE
+5229-0/02,Serviços de reboque de veículos,FALSE
+5229-0/99,Outras atividades auxiliares dos transportes terrestres não especificadas anteriormente,FALSE
+5231-1/01,Administração da infra-estrutura portuária,FALSE
+5231-1/02,Atividades do Operador portuário,FALSE
+5232-0/00,Atividades de agenciamento marítimo,FALSE
+5239-7/01,Serviços de praticagem,FALSE
+5239-7/99,Atividades auxiliares dos transportes aquaviários não especificadas anteriormente,FALSE
+5240-1/01,Operação dos aeroportos e campos de aterrissagem,FALSE
+5240-1/99,"Atividades auxiliares dos transportes aéreos, exceto operação dos aeroportos e campos de aterrissagem",FALSE
+5250-8/01,Comissaria de despachos,FALSE
+5250-8/02,Atividades de despachantes aduaneiros,FALSE
+5250-8/03,"Agenciamento de cargas, exceto para o transporte marítimo",FALSE
+5250-8/04,Organização logística do transporte de carga,FALSE
+5250-8/05,Operador de transporte multimodal - OTM,FALSE
+5310-5/01,Atividades do Correio Nacional,FALSE
+5310-5/02,Atividades de franqueadas e permissionárias do Correio Nacional,FALSE
+5320-2/01,Serviços de malote não realizados pelo Correio Nacional,FALSE
+5320-2/02,Serviços de entrega rápida,FALSE
+5510-8/01,Hotéis,FALSE
+5510-8/02,Apart-hotéis,FALSE
+5510-8/03,Motéis,FALSE
+5590-6/01,"Albergues, exceto assistenciais",FALSE
+5590-6/02,Campings,FALSE
+5590-6/03,Pensões,FALSE
+5590-6/99,Outros alojamentos não especificados anteriormente,FALSE
+5611-2/01,Restaurantes e similares,FALSE
+5611-2/02,Bares e outros estabelecimentos especializados em servir bebidas,FALSE
+5611-2/03,"Lanchonetes, casas de chá, de sucos e similares",FALSE
+5612-1/00,Serviços ambulantes de alimentação,FALSE
+5620-1/01,Fornecimento de alimentos preparados preponderantemente para empresas,FALSE
+5620-1/02,Serviços de alimentação para eventos e recepções - bufê,FALSE
+5620-1/03,Cantinas - serviços de alimentação privativos,FALSE
+5620-1/04,Fornecimento de alimentos preparados preponderantemente para consumo domiciliar,FALSE
+5811-5/00,Edição de livros,FALSE
+5812-3/01,Edição de jornais diários,FALSE
+5812-3/02,Edição de jornais não diários,FALSE
+5813-1/00,Edição de revistas,FALSE
+5819-1/00,"Edição de cadastros, listas e de outros produtos gráficos",FALSE
+5821-2/00,Edição integrada à impressão de livros,FALSE
+5822-1/01,Edição integrada a impressão de jornais diários,FALSE
+5822-1/02,Edição integrada a impressão de jornais não diários,FALSE
+5823-9/00,Edição integrada à impressão de revistas,FALSE
+5829-8/00,"Edição integrada à impressão de cadastros, listas e de outros produtos gráficos",FALSE
+5911-1/01,Estúdios cinematográficos,FALSE
+5911-1/02,Produção de filmes para publicidade,FALSE
+5911-1/99,"Atividades de produção cinematográfica, de vídeos e de programas de televisão não especificadas anteriormente",FALSE
+5912-0/01,Serviços de dublagem,FALSE
+5912-0/02,Serviços de mixagem sonora,FALSE
+5912-0/99,"Atividades de pós-produção cinematográfica, de vídeos e de programas de televisão não especificadas anteriormente",FALSE
+5913-8/00,"Distribuição cinematográfica, de vídeo e de programas de televisão",FALSE
+5914-6/00,Atividades de exibição cinematográfica,FALSE
+5920-1/00,Atividades de gravação de som e de edição de música,FALSE
+6010-1/00,Atividades de rádio,FALSE
+6021-7/00,Atividades de televisão aberta,FALSE
+6022-5/01,Programadoras,FALSE
+6022-5/02,"Atividades relacionadas à televisão por assinatura, exceto programadoras",FALSE
+6110-8/01,Serviços de telefonia fixa comutada - STFC,FALSE
+6110-8/02,Serviços de redes de transportes de telecomunicações - SRTT,FALSE
+6110-8/03,Serviços de comunicação multimídia - SMC,FALSE
+6110-8/99,Serviços de telecomunicações por fio não especificados anteriormente,FALSE
+6120-5/01,Telefonia móvel celular,FALSE
+6120-5/02,Serviço móvel especializado - SME,FALSE
+6120-5/99,Serviços de telecomunicações sem fio não especificados anteriormente,FALSE
+6130-2/00,Telecomunicações por satélite,FALSE
+6141-8/00,Operadoras de televisão por assinatura por cabo,FALSE
+6142-6/00,Operadoras de televisão por assinatura por microondas,FALSE
+6143-4/00,Operadoras de televisão por assinatura por satélite,FALSE
+6190-6/01,Provedores de acesso às redes de comunicações,FALSE
+6190-6/02,Provedores de voz sobre protocolo internet - VOIP,FALSE
+6190-6/99,Outras atividades de telecomunicações não especificadas anteriormente,FALSE
+6201-5/01,Desenvolvimento de programas de computador sob encomenda,FALSE
+6201-5/02,Web design,FALSE
+6202-3/00,Desenvolvimento e licenciamento de programas de computador customizáveis,FALSE
+6203-1/00,Desenvolvimento e licenciamento de programas de computador não-customizáveis,FALSE
+6204-0/00,Consultoria em tecnologia da informação,FALSE
+6209-1/00,"Suporte técnico, manutenção e outros serviços em tecnologia da informação",FALSE
+6311-9/00,"Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet",FALSE
+6319-4/00,"Portais, provedores de conteúdo e outros serviços de informação na internet",FALSE
+6391-7/00,Agências de notícias,FALSE
+6399-2/00,Outras atividades de prestação de serviços de informação não especificadas anteriormente,FALSE
+6410-7/00,Banco Central,FALSE
+6421-2/00,Bancos comerciais,FALSE
+6422-1/00,"Bancos múltiplos, com carteira comercial",FALSE
+6423-9/00,Caixas econômicas,FALSE
+6424-7/01,Bancos cooperativos,FALSE
+6424-7/02,Cooperativas centrais de crédito,FALSE
+6424-7/03,Cooperativas de crédito mútuo,FALSE
+6424-7/04,Cooperativas de crédito rural,FALSE
+6431-0/00,"Bancos múltiplos, sem carteira comercial",FALSE
+6432-8/00,Bancos de investimento,FALSE
+6433-6/00,Bancos de desenvolvimento,FALSE
+6434-4/00,Agências de fomento,FALSE
+6435-2/01,Sociedades de crédito imobiliário,FALSE
+6435-2/02,Associações de poupança e empréstimo,FALSE
+6435-2/03,Companhias hipotecárias,FALSE
+6436-1/00,"Sociedades de crédito, financiamento e investimento - financeiras",FALSE
+6437-9/00,Sociedades de crédito ao microempreendedor,FALSE
+6438-7/01,Bancos de câmbio,FALSE
+6438-7/02,Outra instituições de intermediação não-monetária não especificadas anteriormente,FALSE
+6440-9/00,Arrendamento mercantil,FALSE
+6450-6/00,Sociedades de capitalização,FALSE
+6461-1/00,Holdings de instituições financeiras,FALSE
+6462-0/00,Holdings de instituições não-financeiras,FALSE
+6463-8/00,"Outras sociedades de participação, exceto holdings",FALSE
+6470-1/01,"Fundos de investimento, exceto previdenciários e imobiliários",FALSE
+6470-1/02,Fundos de investimento previdenciários,FALSE
+6470-1/03,Fundos de investimento imobiliários,FALSE
+6491-3/00,Sociedades de fomento mercantil - factoring,FALSE
+6492-1/00,Securitização de créditos,FALSE
+6493-0/00,Administração de consórcios para aquisição de bens e direitos,FALSE
+6499-9/01,Clubes de investimento,FALSE
+6499-9/02,Sociedades de investimento,FALSE
+6499-9/03,Fundo garantidor de crédito,FALSE
+6499-9/04,Caixas de financiamento de corporações,FALSE
+6499-9/05,Concessão de crédito pelas OSCIP,FALSE
+6499-9/99,Outras atividades de serviços financeiros não especificadas anteriormente,FALSE
+6511-1/01,Sociedade seguradora de seguros vida,FALSE
+6511-1/02,Planos de auxílio-funeral,FALSE
+6512-0/00,Sociedade seguradora de seguros não vida,FALSE
+6520-1/00,Sociedade seguradora de seguros saúde,FALSE
+6530-8/00,Resseguros,FALSE
+6541-3/00,Previdência complementar fechada,FALSE
+6542-1/00,Previdência complementar aberta,FALSE
+6550-2/00,Planos de saúde,FALSE
+6611-8/01,Bolsa de valores,FALSE
+6611-8/02,Bolsa de mercadorias,FALSE
+6611-8/03,Bolsa de mercadorias e futuros,FALSE
+6611-8/04,Administração de mercados de balcão organizados,FALSE
+6612-6/01,Corretoras de títulos e valores mobiliários,FALSE
+6612-6/02,Distribuidoras de títulos e valores mobiliários,FALSE
+6612-6/03,Corretoras de câmbio,FALSE
+6612-6/04,Corretoras de contratos de mercadorias,FALSE
+6612-6/05,Agentes de investimentos em aplicações financeiras,FALSE
+6613-4/00,Administração de cartões de crédito,FALSE
+6619-3/01,Serviços de liquidação e custódia,FALSE
+6619-3/02,Correspondentes de instituições financeiras,FALSE
+6619-3/03,Representações de bancos estrangeiros,FALSE
+6619-3/04,Caixas eletrônicos,FALSE
+6619-3/05,Operadoras de cartões de débito,FALSE
+6619-3/99,Outras atividades auxiliares dos serviços financeiros não especificadas anteriormente,FALSE
+6621-5/01,Peritos e avaliadores de seguros,FALSE
+6621-5/02,Auditoria e consultoria atuarial,FALSE
+6622-3/00,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",FALSE
+6629-1/00,"Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde não especificadas anteriormente",FALSE
+6630-4/00,Atividades de administração de fundos por contrato ou comissão,FALSE
+6810-2/01,Compra e venda de imóveis próprios,FALSE
+6810-2/02,Aluguel de imóveis próprios,FALSE
+6810-2/03,Loteamento de imóveis próprios,FALSE
+6821-8/01,Corretagem na compra e venda e avaliação de imóveis,FALSE
+6821-8/02,Corretagem no aluguel de imóveis,FALSE
+6822-6/00,Gestão e administração da propriedade imobiliária*,FALSE
+6911-7/01,Serviços advocatícios,FALSE
+6911-7/02,Atividades auxiliares da justiça,FALSE
+6911-7/03,Agente de propriedade industrial,FALSE
+6912-5/00,Cartórios,FALSE
+6920-6/01,Atividades de contabilidade,FALSE
+6920-6/02,Atividades de consultoria e auditoria contábil e tributária,FALSE
+7020-4/00,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",FALSE
+7111-1/00,Serviços de arquitetura,FALSE
+7112-0/00,Serviços de engenharia,FALSE
+7119-7/01,"Serviços de cartografia, topografia e geodésia",FALSE
+7119-7/02,Atividades de estudos geológicos,FALSE
+7119-7/03,Serviços de desenho técnico relacionados à arquitetura e engenharia,FALSE
+7119-7/04,Serviços de perícia técnica relacionados à segurança do trabalho,FALSE
+7119-7/99,Atividades técnicas relacionadas à engenharia e arquitetura não especificadas anteriormente,FALSE
+7120-1/00,Testes e análises técnicas,FALSE
+7210-0/00,Pesquisa e desenvolvimento experimental em ciências físicas e naturais,FALSE
+7220-7/00,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,FALSE
+7311-4/00,Agências de publicidade,FALSE
+7312-2/00,"Agenciamento de espaços para publicidade, exceto em veículos de comunicação",FALSE
+7319-0/01,Criação e montagem de estandes para feiras e exposições,FALSE
+7319-0/02,Promoção de vendas,FALSE
+7319-0/03,Marketing direto,FALSE
+7319-0/04,Consultoria em publicidade,FALSE
+7319-0/99,Outras atividades de publicidade não especificadas anteriormente,FALSE
+7320-3/00,Pesquisas de mercado e de opinião pública,FALSE
+7410-2/03,Design de produto,FALSE
+7410-2/99,Atividades de design não especificadas anteriormente,FALSE
+7410-2/02,Design de interiores,FALSE
+7420-0/01,"Atividades de produção de fotografias, exceto aérea e submarina",FALSE
+7420-0/02,Atividades de produção de fotografias aéreas e submarinas,FALSE
+7420-0/03,Laboratórios fotográficos,FALSE
+7420-0/04,Filmagem de festas e eventos,FALSE
+7420-0/05,Serviços de microfilmagem,FALSE
+7490-1/01,"Serviços de tradução, interpretação e similares",FALSE
+7490-1/02,Escafandria e mergulho,FALSE
+7490-1/03,Serviços de agronomia e de consultoria às atividades agrícolas e pecuárias,FALSE
+7490-1/04,"Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários",FALSE
+7490-1/05,"Agenciamento de profissionais para atividades esportivas, culturais e artísticas",FALSE
+7490-1/99,"Outras atividades profissionais, científicas e técnicas não especificadas anteriormente",FALSE
+7500-1/00,Atividades veterinárias,FALSE
+7711-0/00,Locação de automóveis sem condutor,FALSE
+7719-5/01,"Locação de embarcações sem tripulação, exceto para fins recreativos",FALSE
+7719-5/02,Locação de aeronaves sem tripulação,FALSE
+7719-5/99,"Locação de outros meios de transporte não especificados anteriormente, sem condutor",FALSE
+7721-7/00,Aluguel de equipamentos recreativos e esportivos,FALSE
+7722-5/00,"Aluguel de fitas de vídeo, DVDs e similares",FALSE
+7723-3/00,"Aluguel de objetos do vestuário, jóias e acessórios",FALSE
+7729-2/01,Aluguel de aparelhos de jogos eletrônicos,FALSE
+7729-2/02,"Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais",FALSE
+7729-2/03,Aluguel de material médico*,FALSE
+7729-2/99,Aluguel de outros objetos pessoais e domésticos não especificados anteriormente,FALSE
+7731-4/00,Aluguel de máquinas e equipamentos agrícolas sem operador,FALSE
+7732-2/01,"Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes",FALSE
+7732-2/02,Aluguel de andaimes,FALSE
+7733-1/00,Aluguel de máquinas e equipamentos para escritórios,FALSE
+7739-0/01,"Aluguel de máquinas e equipamentos para extração de minérios e petróleo, sem operador",FALSE
+7739-0/02,"Aluguel de equipamentos científicos, médicos e hospitalares, sem operador",FALSE
+7739-0/03,"Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",FALSE
+7739-0/99,"Aluguel de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador",FALSE
+7740-3/00,Gestão de ativos intangíveis não-financeiros,FALSE
+7810-8/00,Seleção e agenciamento de mão-de-obra,FALSE
+7820-5/00,Locação de mão-de-obra temporária,FALSE
+7830-2/00,Fornecimento e gestão de recursos humanos para terceiros,FALSE
+7911-2/00,Agências de viagens,FALSE
+7912-1/00,Operadores turísticos,FALSE
+7990-2/00,Serviços de reservas e outros serviços de turismo não especificados anteriormente,FALSE
+8011-1/01,Atividades de vigilância e segurança privada,FALSE
+8011-1/02,Serviços de adestramento de cães de guarda,FALSE
+8012-9/00,Atividades de transporte de valores,FALSE
+8020-0/01,Atividades de monitoramento de sistemas de segurança eletrônico,FALSE
+8020-0/02,Outras atividades de serviços de segurança,FALSE
+8030-7/00,Atividades de investigação particular,FALSE
+8111-7/00,"Serviços combinados para apoio a edifícios, exceto condomínios prediais",FALSE
+8112-5/00,Condomínios prediais,FALSE
+8121-4/00,Limpeza em prédios e em domicílios,FALSE
+8122-2/00,Imunização e controle de pragas urbanas,FALSE
+8129-0/00,Atividades de limpeza não especificadas anteriormente,FALSE
+8130-3/00,Atividades paisagísticas,FALSE
+8211-3/00,Serviços combinados de escritório e apoio administrativo,FALSE
+8219-9/01,Fotocópias,FALSE
+8219-9/99,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,FALSE
+8220-2/00,Atividades de teleatendimento,FALSE
+8230-0/01,"Serviços de organização de feiras, congressos, exposições e festas",FALSE
+8230-0/02,Casas de festas e eventos,FALSE
+8291-1/00,Atividades de cobranças e informações cadastrais,FALSE
+8292-0/00,Envasamento e empacotamento sob contrato,FALSE
+8299-7/01,"Medição de consumo de energia elétrica, gás e água",FALSE
+8299-7/02,"Emissão de vales-alimentação, vales-transporte e similares",FALSE
+8299-7/03,"Serviços de gravação de carimbos, exceto confecção",FALSE
+8299-7/04,Leiloeiros independentes,FALSE
+8299-7/05,Serviços de levantamento de fundos sob contrato,FALSE
+8299-7/06,Casas lotéricas,FALSE
+8299-7/07,Salas de acesso à internet,FALSE
+8299-7/99,Outras atividades de serviços prestados principalmente às empresas não especificadas anteriormente,FALSE
+8411-6/00,Administração pública em geral,FALSE
+8412-4/00,"Regulação das atividades de saúde, educação, serviços culturais e outros serviços sociais",FALSE
+8413-2/00,Regulação das atividades econômicas,FALSE
+8421-3/00,Relações exteriores,FALSE
+8422-1/00,Defesa,FALSE
+8423-0/00,Justiça,FALSE
+8424-8/00,Segurança e ordem pública,FALSE
+8425-6/00,Defesa Civil,FALSE
+8430-2/00,Seguridade social obrigatória,FALSE
+8511-2/00,Educação infantil - creche,FALSE
+8512-1/00,Educação infantil - pré-escola,FALSE
+8513-9/00,Ensino fundamental,FALSE
+8520-1/00,Ensino médio,FALSE
+8531-7/00,Educação superior - graduação,FALSE
+8532-5/00,Educação superior - graduação e pós-graduação,FALSE
+8533-3/00,Educação superior - pós-graduação e extensão,FALSE
+8541-4/00,Educação profissional de nível técnico,FALSE
+8542-2/00,Educação profissional de nível tecnológico,FALSE
+8550-3/01,Administração de caixas escolares,FALSE
+8550-3/02,Serviços auxiliares à educação,FALSE
+8591-1/00,Ensino de esportes,FALSE
+8592-9/01,Ensino de dança,FALSE
+8592-9/02,"Ensino de artes cênicas, exceto dança",FALSE
+8592-9/03,Ensino de música,FALSE
+8592-9/99,Ensino de arte e cultura não especificado anteriormente,FALSE
+8593-7/00,Ensino de idiomas,FALSE
+8599-6/01,Formação de condutores,FALSE
+8599-6/02,Cursos de pilotagem,FALSE
+8599-6/03,Treinamento em informática,FALSE
+8599-6/04,Treinamento em desenvolvimento profissional e gerencial,FALSE
+8599-6/05,Cursos preparatórios para concursos,FALSE
+8599-6/99,Outras atividades de ensino não especificadas anteriormente,FALSE
+8610-1/01,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",FALSE
+8610-1/02,Atividades de atendimento em pronto-socorro e unidades hospitalares para atendimento a urgências,FALSE
+8621-6/01,UTI móvel,FALSE
+8621-6/02,"Serviços móveis de atendimento a urgências, exceto por UTI móvel",FALSE
+8622-4/00,"Serviços de remoção de pacientes, exceto os serviços móveis de atendimento a urgências",FALSE
+8630-5/01,Atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos,FALSE
+8630-5/02,Atividade médica ambulatorial com recursos para realização de exames complementares,FALSE
+8630-5/03,Atividade médica ambulatorial restrita a consultas,FALSE
+8630-5/04,Atividade odontológica,FALSE
+8630-5/06,Serviços de vacinação e imunização humana,FALSE
+8630-5/07,Atividades de reprodução humana assistida,FALSE
+8630-5/99,Atividades de atenção ambulatorial não especificadas anteriormente,FALSE
+8640-2/01,Laboratórios de anatomia patológica e citológica,FALSE
+8640-2/02,Laboratórios clínicos,FALSE
+8640-2/03,Serviços de diálise e nefrologia,FALSE
+8640-2/04,Serviços de tomografia,FALSE
+8640-2/05,"Serviços de diagnóstico por imagem com uso de radiação ionizante, exceto tomografia",FALSE
+8640-2/06,Serviços de ressonância magnética,FALSE
+8640-2/07,"Serviços de diagnóstico por imagem sem uso de radiação ionizante, exceto ressonância magnética",FALSE
+8640-2/08,"Serviços de diagnóstico por registro gráfico - ECG, EEG e outros exames análogos",FALSE
+8640-2/09,Serviços de diagnóstico por métodos ópticos - endoscopia e outros exames análogos,FALSE
+8640-2/10,Serviços de quimioterapia,FALSE
+8640-2/11,Serviços de radioterapia,FALSE
+8640-2/12,Serviços de hemoterapia,FALSE
+8640-2/13,Serviços de litotripsia,FALSE
+8640-2/14,Serviços de bancos de células e tecidos humanos,FALSE
+8640-2/99,Atividades de serviços de complementação diagnóstica e terapêutica não especificadas anteriormente,FALSE
+8650-0/01,Atividades de enfermagem,FALSE
+8650-0/02,Atividades de profissionais da nutrição,FALSE
+8650-0/03,Atividades de psicologia e psicanálise,FALSE
+8650-0/04,Atividades de fisioterapia,FALSE
+8650-0/05,Atividades de terapia ocupacional,FALSE
+8650-0/06,Atividades de fonoaudiologia,FALSE
+8650-0/07,Atividades de terapia de nutrição enteral e parenteral,FALSE
+8650-0/99,Atividades de profissionais da área de saúde não especificadas anteriormente,FALSE
+8660-7/00,Atividades de apoio à gestão de saúde,FALSE
+8690-9/01,Atividades de práticas integrativas e complementares em saúde humana,FALSE
+8690-9/02,Atividades de banco de leite humano,FALSE
+8690-9/03,Atividades de acupuntura,FALSE
+8690-9/04,Atividades de podologia,FALSE
+8690-9/99,Outras atividades de atenção à saúde humana não especificadas anteriormente,FALSE
+8711-5/01,Clínicas e residências geriátricas,FALSE
+8711-5/02,Instituições de longa permanência para idosos,FALSE
+8711-5/03,"Atividades de assistência a deficientes físicos, imunodeprimidos e convalescentes",FALSE
+8711-5/04,Centros de apoio a pacientes com câncer e com AIDS,FALSE
+8711-5/05,Condomínios residenciais para idosos,FALSE
+8712-3/00,Atividades de fornecimento de infra-estrutura de apoio e assistência a paciente no domicílio,FALSE
+8720-4/01,Atividades de centros de assistência psicossocial,FALSE
+8720-4/99,"Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química não especificadas anteriormente",FALSE
+8730-1/01,Orfanatos,FALSE
+8730-1/02,Albergues assistenciais,FALSE
+8730-1/99,Atividades de assistência social prestadas em residências coletivas e particulares não especificadas anteriormente,FALSE
+8800-6/00,Serviços de assistência social sem alojamento,FALSE
+9001-9/01,Produção teatral,FALSE
+9001-9/02,Produção musical,FALSE
+9001-9/03,Produção de espetáculos de dança,FALSE
+9001-9/04,"Produção de espetáculos circenses, de marionetes e similares",FALSE
+9001-9/05,"Produção de espetáculos de rodeios, vaquejadas e similares",FALSE
+9001-9/06,Atividades de sonorização e de iluminação,FALSE
+9001-9/99,"Artes cênicas, espetáculos e atividades complementares não especificadas anteriormente",FALSE
+9002-7/01,"Atividades de artistas plásticos, jornalistas independentes e escritores",FALSE
+9002-7/02,Restauração de obras-de-arte,FALSE
+9003-5/00,"Gestão de espaços para artes cênicas, espetáculos e outras atividades artísticas",FALSE
+9101-5/00,Atividades de bibliotecas e arquivos,FALSE
+9102-3/01,Atividades de museus e de exploração de lugares e prédios históricos e atrações similares,FALSE
+9102-3/02,Restauração e conservação de lugares e prédios históricos,FALSE
+9103-1/00,"Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental",FALSE
+9200-3/01,Casas de bingo,FALSE
+9200-3/02,Exploração de apostas em corridas de cavalos,FALSE
+9200-3/99,Exploração de jogos de azar e apostas não especificados anteriormente,FALSE
+9311-5/00,Gestão de instalações de esportes,FALSE
+9312-3/00,"Clubes sociais, esportivos e similares",FALSE
+9313-1/00,Atividades de condicionamento físico,FALSE
+9319-1/01,Produção e promoção de eventos esportivos,FALSE
+9319-1/99,Outras atividades esportivas não especificadas anteriormente,FALSE
+9321-2/00,Parques de diversão e parques temáticos,FALSE
+9329-8/01,"Discotecas, danceterias, salões de dança e similares",FALSE
+9329-8/02,Exploração de boliches,FALSE
+9329-8/03,"Exploração de jogos de sinuca, bilhar e similares",FALSE
+9329-8/04,Exploração de jogos eletrônicos recreativos,FALSE
+9329-8/99,Outras atividades de recreação e lazer não especificadas anteriormente,FALSE
+9411-1/00,Atividades de organizações associativas patronais e empresariais,FALSE
+9412-0/01,Atividades de fiscalização profissional,FALSE
+9412-0/99,Outras Atividades associativas profissionais,FALSE
+9420-1/00,Atividades de organizações sindicais,FALSE
+9430-8/00,Atividades de associações de defesa de direitos sociais,FALSE
+9491-0/00,Atividades de organizações religiosas ou filosóficas,FALSE
+9492-8/00,Atividades de organizações políticas,FALSE
+9493-6/00,Atividades de organizações associativas ligadas à cultura e à arte,FALSE
+9499-5/00,Atividades associativas não especificadas anteriormente,FALSE
+9511-8/00,Reparação e manutenção de computadores e de equipamentos periféricos,FALSE
+9512-6/00,Reparação e manutenção de equipamentos de comunicação,FALSE
+9521-5/00,Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico,FALSE
+9529-1/01,"Reparação de calçados, de bolsas e artigos de viagem",FALSE
+9529-1/02,Chaveiros,FALSE
+9529-1/03,Reparação de relógios,FALSE
+9529-1/04,"Reparação de bicicletas, triciclos e outros veículos não-motorizados",FALSE
+9529-1/05,Reparação de artigos do mobiliário,FALSE
+9529-1/06,Reparação de jóias,FALSE
+9529-1/99,Reparação e manutenção de outros objetos e equipamentos pessoais e domésticos não especificados anteriormente,FALSE
+9601-7/01,Lavanderias,FALSE
+9601-7/02,Tinturarias,FALSE
+9601-7/03,Toalheiros,FALSE
+9602-5/01,"Cabeleireiros, manicure e pedicure",FALSE
+9602-5/02,Atividades de estética e outros serviços de cuidados com a beleza,FALSE
+9603-3/01,Gestão e manutenção de cemitérios,FALSE
+9603-3/02,Serviços de cremação,FALSE
+9603-3/03,Serviços de sepultamento,FALSE
+9603-3/04,Serviços de funerárias,FALSE
+9603-3/05,Serviços de somatoconservação,FALSE
+9603-3/99,Atividades funerárias e serviços relacionados não especificados anteriormente,FALSE
+9609-2/02,Agências matrimoniais,FALSE
+9609-2/07,Alojamento de animais domésticos,FALSE
+9609-2/08,Higiene e embelezamento de animais domésticos,FALSE
+9609-2/04,Exploração de máquinas de serviços pessoais acionadas por moeda,FALSE
+9609-2/05,Atividades de sauna e banhos,FALSE
+9609-2/06,Serviços de tatuagem e colocação de piercing,FALSE
+9609-2/99,Outras atividades de serviços pessoais não especificadas anteriormente,FALSE
+9700-5/00,Serviços domésticos,FALSE
+9900-8/00,Organismos internacionais e outras instituições extraterritoriais,FALSE

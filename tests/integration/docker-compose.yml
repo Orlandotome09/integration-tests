@@ -1,0 +1,68 @@
+version: '3'
+
+services:
+  temis-compliance-api:
+    image: temis-compliance:${SHORT_COMMIT}
+    restart: "always"
+    env_file:
+      - .env
+    ports:
+      - "8193:8193"
+    environment:
+      - START_COMMAND=INTERNAL_COMPLIANCE_API
+    depends_on:
+      - postgres
+      - mocks
+      - pubsub
+
+  compliance:
+    image: temis-compliance:${SHORT_COMMIT}
+    restart: "always"
+    env_file:
+      - .env
+    ports:
+      - "8888:8888"
+    environment:
+      - START_COMMAND=ASYNC_COMPLIANCE
+    depends_on:
+      - postgres
+      - mocks
+      - pubsub
+
+  postgres:
+    image: postgres_db
+    environment:
+      POSTGRES_DB: "temis_compliance"
+      POSTGRES_USER: "compliance"
+      POSTGRES_PASSWORD: "compliance"
+      PGDATA: "/tempDB"
+    ports:
+      - "5433:5432"
+
+  pubsub:
+    image: google/cloud-sdk:latest
+    command: [ "gcloud", "beta", "emulators", "pubsub", "start", "--host-port=0.0.0.0:8681", "--project=local-project" ]
+    ports:
+      - "8681:8681"
+
+  pubsub-config:
+    image: pubsub-config
+    environment:
+      PUBSUB_EMULATOR_HOST: "pubsub:8681"
+    depends_on:
+      - pubsub
+
+  mocks:
+    image: karate
+    command: ["-p","9093","-m","/karate/mocks/mocks.feature"]
+    env_file:
+      - .env
+    ports:
+      - "9093:9093"
+    depends_on:
+      - pubsub
+
+networks:
+  default:
+    external:
+      name: compliance_network

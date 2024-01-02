@@ -1,0 +1,19 @@
+pipelines:
+  default:
+    - step:
+        name: Unit Test
+        image: golang:1.19
+        script:
+          - go test ./...
+    - step:
+        name: Integration Tests
+        services:
+          - docker
+        script:
+          - sh integration_test.sh
+        size: 2x
+        max-time: 30 # Timeout after 20 minutes
+definitions:
+  services:
+    docker:
+      memory: 6144

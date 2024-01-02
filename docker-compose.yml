@@ -1,0 +1,63 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres_db
+    environment:
+      POSTGRES_DB: "temis_compliance"
+      POSTGRES_USER: "compliance"
+      POSTGRES_PASSWORD: "compliance"
+      PGDATA: "/tempDB"
+    ports:
+      - "5432:5432"
+
+  pubsub:
+    image: google/cloud-sdk:latest
+    command: [ "gcloud", "beta", "emulators", "pubsub", "start", "--host-port=0.0.0.0:8681", "--project=local-project" ]
+    ports:
+      - "8681:8681"
+
+  pubsub-config:
+    image: pubsub-config
+    environment:
+      PUBSUB_EMULATOR_HOST: "pubsub:8681"
+    depends_on:
+      - pubsub
+
+  mocks:
+    image: karate
+    command: [ "-p","9093","-m","/karate/mocks/mocks.feature"]
+    env_file:
+      - docker-compose.env
+    ports:
+      - "9093:9093"
+    depends_on:
+      - pubsub-config
+
+  grafana:
+    image: grafana/grafana
+    user: root
+    volumes:
+      - .grafana:/var/lib/grafana
+    network_mode: "host"
+    depends_on:
+      - prometheus
+      - prometheus-pushgateway
+
+  prometheus:
+    image: prom/prometheus
+    user: root
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/data
+    volumes:
+      - .infra/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - .prometheus:/data
+    network_mode: "host"
+
+  prometheus-pushgateway:
+    image: prom/pushgateway
+    expose:
+      - 9091
+    ports:
+      - "9091:9091"

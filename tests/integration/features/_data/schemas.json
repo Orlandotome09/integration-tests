@@ -1,0 +1,162 @@
+{
+    "profileStateEventContent":{
+        "state":{
+            "entity_id":"#string",
+            "engine_name":"#string",
+            "result":"#string",
+            "validation_steps_results":"##array",
+            "rule_names": "##array",
+            "pending": "#boolean",
+            "execution_time": "##string",
+            "created_at": "##string",
+            "updated_at": "##string"
+        },
+        "profile":{
+            "person": {
+                "document_number": "#string",
+                "name": "#string",
+                "person_type": "#string",
+                "email": "#string",
+                "partner_id": "#string",
+                "offer_type": "#string",
+                "profile_id": "##string",
+                "entity_id": "#string",
+                "entity_type": "#string",
+                "role_type":"#string",
+                "individual": "##object",
+                "company": "##object",
+                "enriched_information": "##object",
+                "blacklist_status": "##object",
+                "watchlist": "##object",
+                "addresses": "##[]",
+                "contacts":"##[]",
+                "notification_recipients": "##[]",
+                "documents":"##[]",
+                "document_files":"##[]",
+                "overrides":"##[]",
+                "validation_steps":"##[]",
+                "catalog": "##object"
+            },
+            "profile_id": "##string",
+            "parent_id": "##string",
+            "legacy_id": "##string",
+            "callback_url":"##string",
+            "legal_representatives": "##[]",
+            "ownership_structure": "##object",
+            "board_of_directors": "##[]",
+            "created_at": "##string",
+            "updated_at": "##string"
+        },
+        "person": "#null"
+    },
+    "personStateEventContent":{
+        "state":{
+            "entity_id":"#string",
+            "engine_name":"#string",
+            "result":"#string",
+            "validation_steps_results":"##array",
+            "rule_names": "##array",
+            "pending": "#boolean",
+            "execution_time": "##string",
+            "created_at": "##string",
+            "updated_at": "##string"
+        },
+        "profile": "#null",
+        "person": {
+            "document_number": "#string",
+            "name": "#string",
+            "person_type": "#string",
+            "email": "#string",
+            "partner_id": "#string",
+            "offer_type": "#string",
+            "profile_id": "#string",
+            "entity_id": "#string",
+            "entity_type": "#string",
+            "role_type":"#string",
+            "individual": "##object",
+            "company": "##object",
+            "enriched_information": "##object",
+            "blacklist_status": "##object",
+            "watchlist": "##object",
+            "addresses": "##[]",
+            "contacts":"##[]",
+            "notification_recipients": "##[]",
+            "documents":"##[]",
+            "document_files":"##[]",
+            "overrides":"##[]",
+            "validation_steps":"##[]",
+            "catalog": "##object"
+        }
+    },
+    "individual":{
+        "first_name": "##string",
+        "last_name": "##string",
+        "date_of_birth": "##string",
+        "date_of_birth_inputted": "##string",
+        "phones": [
+            {
+                "type":"##string",
+                "country_code":"##string",
+                "area_code":"##string",
+                "number":"##string"
+            }
+        ],
+        "bureau_information": {
+            "name":"##string",
+            "date_of_birth":"##string"
+        },
+        "income": "##number",
+        "income_currency": "##string",
+        "assets": "##number",
+        "assets_currency":"##string",
+        "nationality":"##string",
+        "pep":"##boolean",
+        "us_person": "##boolean",
+        "occupation" :"##string",
+        "foreign_tax_residency": "##boolean",
+        "country_of_tax_residency": "##string",
+        "contacts": "##string"
+    },
+    "company": {
+        "legal_name": "##string",
+        "business_name" : "##string",
+        "tax_payer_identification":"##string",
+        "company_registration_number": "##string",
+        "date_of_incorporation":"##string",
+        "place_of_incorporation": "##string",
+        "share_capital": {
+            "amount":"##number",
+            "currency":"##string"
+        },
+        "license":"##string",
+        "website" :"##string",
+        "goods_delivery": {
+            "average_delivery_days": "##number",
+            "shipping_methods": "##string",
+            "insurance": "##boolean",
+            "tracking_code_available":"##boolean"
+        },
+        "assets":"##number",
+        "assets_currency":"##string",
+        "annual_income":"##number",
+        "annual_income_currency": "##string",
+        "country_code": "##string",
+        "legal_nature": "##string"
+    },
+    "validation_step_result": {
+        "step_number":"#number",
+        "result": "#string",
+        "skip_for_approval": "#boolean",
+        "rule_results":{
+            "rule_set": "#string",
+            "rule_name":"#string",
+            "result":"#string",
+            "pending": "#boolean",
+            "expire_at": "##string",
+            "metadata" : "##string",
+            "tags": "##[]",
+            "problems" : "##[]",
+            "approved_documents": "##[]"
+        }
+    }
+}

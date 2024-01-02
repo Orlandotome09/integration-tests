@@ -1,0 +1,1576 @@
+basePath: /compliance
+definitions:
+  bitbucket_org_bexstech_temis-compliance_src_presentation_profileApi_contracts.ProfileResponse:
+    properties:
+      board_of_directors:
+        items:
+          $ref: '#/definitions/entity.Director'
+        type: array
+      callback_url:
+        type: string
+      created_at:
+        type: string
+      expiration_date:
+        type: string
+      legacy_id:
+        type: string
+      legal_representatives:
+        items:
+          $ref: '#/definitions/entity.LegalRepresentative'
+        type: array
+      ownership_structure:
+        $ref: '#/definitions/entity.OwnershipStructure'
+      parent_id:
+        type: string
+      person:
+        $ref: '#/definitions/entity.Person'
+      profile_id:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  contracts.ComplianceResponse:
+    properties:
+      detailed_result:
+        items:
+          $ref: '#/definitions/contracts.detailedResult'
+        type: array
+      entity_id:
+        type: string
+      entity_type:
+        type: string
+      result:
+        $ref: '#/definitions/values.Result'
+    type: object
+  contracts.DetailedRuleProblem:
+    properties:
+      code:
+        $ref: '#/definitions/values.ProblemCode'
+      detail: {}
+    type: object
+  contracts.DetailedRuleResponse:
+    properties:
+      metadata:
+        type: object
+      name:
+        $ref: '#/definitions/values.RuleName'
+      pending:
+        type: boolean
+      problems:
+        items:
+          $ref: '#/definitions/contracts.DetailedRuleProblem'
+        type: array
+      result:
+        $ref: '#/definitions/values.Result'
+      set:
+        $ref: '#/definitions/values.RuleSet'
+      step_number:
+        type: integer
+      tags:
+        items:
+          type: string
+        type: array
+    type: object
+  contracts.FindResponse:
+    properties:
+      profile_id:
+        type: string
+      states:
+        items:
+          $ref: '#/definitions/contracts.StateResponse'
+        type: array
+    type: object
+  contracts.RuleResponse:
+    properties:
+      name:
+        $ref: '#/definitions/values.RuleName'
+    type: object
+  contracts.SearchPaginatedResponse:
+    properties:
+      number_of_pages:
+        type: integer
+      profiles:
+        items:
+          $ref: '#/definitions/contracts.SearchResponse'
+        type: array
+      total_count:
+        type: integer
+    type: object
+  contracts.SearchResponse:
+    properties:
+      created_at:
+        type: string
+      document_number:
+        type: string
+      name:
+        type: string
+      parent_id:
+        type: string
+      partner_id:
+        type: string
+      profile_id:
+        type: string
+      rules:
+        items:
+          $ref: '#/definitions/contracts.RuleResponse'
+        type: array
+      updated_at:
+        type: string
+    type: object
+  contracts.StateResponse:
+    properties:
+      engine_name:
+        type: string
+      entity_id:
+        type: string
+      result:
+        $ref: '#/definitions/values.Result'
+      rule_set_result:
+        items:
+          $ref: '#/definitions/contracts.DetailedRuleResponse'
+        type: array
+    type: object
+  contracts.detail:
+    properties:
+      code:
+        type: string
+      detail: {}
+    type: object
+  contracts.detailedResult:
+    properties:
+      approved_value:
+        type: number
+      details:
+        items:
+          $ref: '#/definitions/contracts.detail'
+        type: array
+      limit_interval:
+        type: string
+      limit_type:
+        type: string
+      result:
+        type: string
+    type: object
+  entity.ActivityRiskParams:
+    type: object
+  entity.Address:
+    properties:
+      address_id:
+        type: string
+      city:
+        type: string
+      complement:
+        type: string
+      country_code:
+        type: string
+      neighborhood:
+        type: string
+      number:
+        type: string
+      profile_id:
+        type: string
+      state_code:
+        type: string
+      street:
+        type: string
+      type:
+        type: string
+      zip_code:
+        type: string
+    type: object
+  entity.BlackListParams:
+    type: object
+  entity.BlacklistStatus:
+    properties:
+      justification:
+        $ref: '#/definitions/entity.Justification'
+      status:
+        type: string
+    type: object
+  entity.BoardOfDirectorsParams:
+    type: object
+  entity.BureauInformation:
+    properties:
+      date_of_birth:
+        type: string
+      name:
+        type: string
+    type: object
+  entity.BureauParams:
+    properties:
+      approved_statuses:
+        items:
+          type: string
+        type: array
+      has_problems_in_serasa_pending:
+        type: boolean
+      has_problems_in_serasa_status:
+        $ref: '#/definitions/values.Result'
+      not_found_in_serasa_pending:
+        type: boolean
+      not_found_in_serasa_status:
+        $ref: '#/definitions/values.Result'
+    type: object
+  entity.CAFParams:
+    type: object
+  entity.Catalog:
+    properties:
+      catalog_id:
+        type: string
+      created_at:
+        type: string
+      offer_type:
+        type: string
+      partner_id:
+        type: string
+      product_config:
+        $ref: '#/definitions/entity.ProductConfig'
+      profile_type:
+        $ref: '#/definitions/values.PersonType'
+      role_type:
+        $ref: '#/definitions/values.RoleType'
+      updated_at:
+        type: string
+      validation_steps:
+        items:
+          $ref: '#/definitions/entity.ValidationStep'
+        type: array
+    type: object
+  entity.Company:
+    properties:
+      annual_income:
+        type: number
+      annual_income_currency:
+        type: string
+      assets:
+        type: number
+      assets_currency:
+        type: string
+      business_name:
+        type: string
+      company_registration_number:
+        type: string
+      country_code:
+        type: string
+      date_of_incorporation:
+        type: string
+      goods_delivery:
+        $ref: '#/definitions/entity.GoodsDelivery'
+      legal_name:
+        type: string
+      legal_nature:
+        type: string
+      license:
+        type: string
+      place_of_incorporation:
+        type: string
+      share_capital:
+        $ref: '#/definitions/entity.MonetaryAmount'
+      tax_payer_identification:
+        type: string
+      website:
+        type: string
+    type: object
+  entity.Condition:
+    properties:
+      field_name:
+        type: string
+      values:
+        items:
+          type: string
+        type: array
+    type: object
+  entity.Contact:
+    properties:
+      contact_id:
+        type: string
+      document_number:
+        type: string
+      email:
+        type: string
+      name:
+        type: string
+      nationality:
+        type: string
+      phone:
+        type: string
+      phones:
+        items:
+          $ref: '#/definitions/entity.Phone'
+        type: array
+      profile_id:
+        type: string
+    type: object
+  entity.DOAParams:
+    properties:
+      approved_score:
+        type: number
+      rejected_score:
+        type: number
+    type: object
+  entity.Director:
+    properties:
+      director_id:
+        type: string
+      person:
+        $ref: '#/definitions/entity.Person'
+      role:
+        type: string
+    type: object
+  entity.Document:
+    properties:
+      document_id:
+        type: string
+      document_sub_type:
+        type: string
+      document_type:
+        type: string
+      emission_date:
+        type: string
+      expiration_date:
+        type: string
+    type: object
+  entity.DocumentFile:
+    properties:
+      created_at:
+        type: string
+      document_file_id:
+        type: string
+      document_id:
+        type: string
+      file_id:
+        type: string
+      file_side:
+        $ref: '#/definitions/values.FileSide'
+    type: object
+  entity.DocumentRequired:
+    properties:
+      conditions:
+        items:
+          $ref: '#/definitions/entity.Condition'
+        type: array
+      document_sub_type:
+        type: string
+      document_type:
+        $ref: '#/definitions/values.DocumentType'
+      file_required:
+        type: boolean
+      pending_on_approval:
+        type: boolean
+    type: object
+  entity.EnrichedInformation:
+    properties:
+      birth_date:
+        type: string
+      board_of_directors:
+        items:
+          $ref: '#/definitions/entity.Director'
+        type: array
+      economic_activity:
+        type: string
+      legal_name:
+        type: string
+      legal_nature:
+        type: string
+      name:
+        type: string
+      opening_date:
+        type: string
+      ownership_structure:
+        $ref: '#/definitions/entity.OwnershipStructure'
+      providers:
+        items:
+          $ref: '#/definitions/entity.Provider'
+        type: array
+      status:
+        type: string
+    type: object
+  entity.GoodsDelivery:
+    properties:
+      average_delivery_days:
+        type: integer
+      insurance:
+        type: boolean
+      shipping_methods:
+        type: string
+      tracking_code_available:
+        type: boolean
+    type: object
+  entity.IncompleteParams:
+    properties:
+      address_required:
+        type: boolean
+      date_of_birth_required:
+        type: boolean
+      documents_required:
+        items:
+          $ref: '#/definitions/entity.DocumentRequired'
+        type: array
+      email_required:
+        type: boolean
+      inputted_or_enriched_date_of_birth_required:
+        type: boolean
+      last_name_required:
+        type: boolean
+      pep_required:
+        type: boolean
+      phone_number_required:
+        type: boolean
+    type: object
+  entity.Individual:
+    properties:
+      assets:
+        type: number
+      assets_currency:
+        type: string
+      bureau_information:
+        $ref: '#/definitions/entity.BureauInformation'
+      contacts:
+        type: string
+      country_of_tax_residency:
+        type: string
+      date_of_birth:
+        type: string
+      date_of_birth_inputted:
+        type: string
+      first_name:
+        type: string
+      foreign_tax_residency:
+        type: boolean
+      income:
+        type: number
+      income_currency:
+        type: string
+      last_name:
+        type: string
+      nationality:
+        type: string
+      occupation:
+        type: string
+      pep:
+        type: boolean
+      phones:
+        items:
+          $ref: '#/definitions/entity.Phone'
+        type: array
+      us_person:
+        type: boolean
+    type: object
+  entity.Justification:
+    properties:
+      added_at:
+        type: string
+      author:
+        type: string
+      comments:
+        items:
+          type: string
+        type: array
+    type: object
+  entity.LegalRepresentative:
+    properties:
+      addresses:
+        items:
+          $ref: '#/definitions/entity.Address'
+        type: array
+      blacklist_status:
+        $ref: '#/definitions/entity.BlacklistStatus'
+      catalog:
+        $ref: '#/definitions/entity.Catalog'
+      company:
+        $ref: '#/definitions/entity.Company'
+      contacts:
+        items:
+          $ref: '#/definitions/entity.Contact'
+        type: array
+      document_files:
+        items:
+          $ref: '#/definitions/entity.DocumentFile'
+        type: array
+      document_number:
+        type: string
+      documents:
+        items:
+          $ref: '#/definitions/entity.Document'
+        type: array
+      email:
+        type: string
+      enriched_information:
+        $ref: '#/definitions/entity.EnrichedInformation'
+      entity_id:
+        type: string
+      entity_type:
+        $ref: '#/definitions/values.EntityType'
+      expiration_date:
+        type: string
+      individual:
+        $ref: '#/definitions/entity.Individual'
+      legal_representative_id:
+        type: string
+      name:
+        type: string
+      notification_recipients:
+        items:
+          $ref: '#/definitions/entity.NotificationRecipient'
+        type: array
+      offer_type:
+        type: string
+      overrides:
+        items:
+          $ref: '#/definitions/entity.Override'
+        type: array
+      partner_id:
+        type: string
+      pep_information:
+        $ref: '#/definitions/entity.PepInformation'
+      person_type:
+        $ref: '#/definitions/values.PersonType'
+      profile_id:
+        type: string
+      role_type:
+        $ref: '#/definitions/values.RoleType'
+      validation_steps:
+        items:
+          $ref: '#/definitions/entity.RuleValidatorStep'
+        type: array
+      watchlist:
+        $ref: '#/definitions/entity.Watchlist'
+    type: object
+  entity.LegalRepresentativeParams:
+    type: object
+  entity.ManualBlockParams:
+    type: object
+  entity.ManualValidationParams:
+    type: object
+  entity.MinimumBillingParams:
+    properties:
+      minimum_billing:
+        type: number
+    type: object
+  entity.MinimumIncomeParams:
+    properties:
+      minimum_income:
+        type: number
+    type: object
+  entity.MonetaryAmount:
+    properties:
+      amount:
+        type: number
+      currency:
+        type: string
+    type: object
+  entity.NotificationRecipient:
+    properties:
+      copy_email:
+        type: string
+      email_to:
+        type: string
+      notification_type:
+        $ref: '#/definitions/values.NotificationType'
+    type: object
+  entity.Override:
+    properties:
+      author:
+        type: string
+      comments:
+        type: string
+      created_at:
+        type: string
+      entity_id:
+        type: string
+      entity_type:
+        $ref: '#/definitions/values.EntityType'
+      parent_id:
+        type: string
+      result:
+        $ref: '#/definitions/values.Result'
+      rule_name:
+        $ref: '#/definitions/values.RuleName'
+      rule_set:
+        $ref: '#/definitions/values.RuleSet'
+    type: object
+  entity.OwnershipStructure:
+    properties:
+      final_beneficiaries_count:
+        type: integer
+      shareholders:
+        items:
+          $ref: '#/definitions/entity.Shareholder'
+        type: array
+      shareholding_sum:
+        type: number
+    type: object
+  entity.OwnershipStructureParams:
+    properties:
+      min_shareholding_percentage:
+        type: number
+    type: object
+  entity.PepInformation:
+    properties:
+      created_at:
+        type: string
+      document_number:
+        type: string
+      end_date:
+        type: string
+      institution:
+        type: string
+      name:
+        type: string
+      role:
+        type: string
+      source:
+        type: string
+      start_date:
+        type: string
+    type: object
+  entity.PepParams:
+    type: object
+  entity.Person:
+    properties:
+      addresses:
+        items:
+          $ref: '#/definitions/entity.Address'
+        type: array
+      blacklist_status:
+        $ref: '#/definitions/entity.BlacklistStatus'
+      catalog:
+        $ref: '#/definitions/entity.Catalog'
+      company:
+        $ref: '#/definitions/entity.Company'
+      contacts:
+        items:
+          $ref: '#/definitions/entity.Contact'
+        type: array
+      document_files:
+        items:
+          $ref: '#/definitions/entity.DocumentFile'
+        type: array
+      document_number:
+        type: string
+      documents:
+        items:
+          $ref: '#/definitions/entity.Document'
+        type: array
+      email:
+        type: string
+      enriched_information:
+        $ref: '#/definitions/entity.EnrichedInformation'
+      entity_id:
+        type: string
+      entity_type:
+        $ref: '#/definitions/values.EntityType'
+      individual:
+        $ref: '#/definitions/entity.Individual'
+      name:
+        type: string
+      notification_recipients:
+        items:
+          $ref: '#/definitions/entity.NotificationRecipient'
+        type: array
+      offer_type:
+        type: string
+      overrides:
+        items:
+          $ref: '#/definitions/entity.Override'
+        type: array
+      partner_id:
+        type: string
+      pep_information:
+        $ref: '#/definitions/entity.PepInformation'
+      person_type:
+        $ref: '#/definitions/values.PersonType'
+      profile_id:
+        type: string
+      role_type:
+        $ref: '#/definitions/values.RoleType'
+      validation_steps:
+        items:
+          $ref: '#/definitions/entity.RuleValidatorStep'
+        type: array
+      watchlist:
+        $ref: '#/definitions/entity.Watchlist'
+    type: object
+  entity.Phone:
+    properties:
+      area_code:
+        type: string
+      country_code:
+        type: string
+      number:
+        type: string
+      type:
+        type: string
+    type: object
+  entity.ProductConfig:
+    properties:
+      create_bexs_account:
+        type: boolean
+      enrich_profile_with_bureau_data:
+        type: boolean
+      limit_integration:
+        type: boolean
+      tree_integration:
+        type: boolean
+    type: object
+  entity.Provider:
+    properties:
+      provider_name:
+        type: string
+      request_id:
+        type: string
+      status:
+        type: string
+    type: object
+  entity.RuleSetConfig:
+    properties:
+      activity_risk_params:
+        $ref: '#/definitions/entity.ActivityRiskParams'
+      black_list_params:
+        $ref: '#/definitions/entity.BlackListParams'
+      board_of_directors_params:
+        $ref: '#/definitions/entity.BoardOfDirectorsParams'
+      bureau_params:
+        $ref: '#/definitions/entity.BureauParams'
+      caf_params:
+        $ref: '#/definitions/entity.CAFParams'
+      doa_params:
+        $ref: '#/definitions/entity.DOAParams'
+      incomplete_params:
+        $ref: '#/definitions/entity.IncompleteParams'
+      legal_representative_params:
+        $ref: '#/definitions/entity.LegalRepresentativeParams'
+      manual_block_params:
+        $ref: '#/definitions/entity.ManualBlockParams'
+      manual_validation_params:
+        $ref: '#/definitions/entity.ManualValidationParams'
+      minimum_billing_params:
+        $ref: '#/definitions/entity.MinimumBillingParams'
+      minimum_income_params:
+        $ref: '#/definitions/entity.MinimumIncomeParams'
+      ownership_structure_params:
+        $ref: '#/definitions/entity.OwnershipStructureParams'
+      pep_params:
+        $ref: '#/definitions/entity.PepParams'
+      under_age_params:
+        $ref: '#/definitions/entity.UnderAgeParams'
+      watch_list_params:
+        $ref: '#/definitions/entity.WatchListParams'
+    type: object
+  entity.RuleValidatorStep:
+    properties:
+      rules:
+        items: {}
+        type: array
+      skip_for_approval:
+        type: boolean
+      step_number:
+        type: integer
+    type: object
+  entity.Shareholder:
+    properties:
+      level:
+        type: integer
+      ownership_percent:
+        type: number
+      parent_id:
+        type: string
+      person:
+        $ref: '#/definitions/entity.Person'
+      shareholder_id:
+        type: string
+    type: object
+  entity.UnderAgeParams:
+    properties:
+      minimum_age:
+        type: integer
+    type: object
+  entity.ValidationStep:
+    properties:
+      rules_config:
+        $ref: '#/definitions/entity.RuleSetConfig'
+      skip_for_approval:
+        type: boolean
+      step_number:
+        type: integer
+    type: object
+  entity.WatchListParams:
+    properties:
+      has_match_in_watch_list_status:
+        $ref: '#/definitions/values.Result'
+      want_pep_tag:
+        type: boolean
+      wanted_sources:
+        items:
+          type: string
+        type: array
+    type: object
+  entity.Watchlist:
+    properties:
+      metadata:
+        items:
+          type: integer
+        type: array
+      sources:
+        items:
+          type: string
+        type: array
+    type: object
+  presentation.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  values.DocumentType:
+    enum:
+    - IDENTIFICATION
+    - PASSPORT
+    - ACCOUNT_OPENING_CONTRACT
+    - MANDATORY_STATEMENTS_AGREEMENT_EVIDENCE
+    - REGISTRATION_FORM
+    - CORPORATE_DOCUMENT
+    - PROOF_OF_ADDRESS
+    - SUPPLIER_AGREEMENT
+    - BUSINESS_LICENSE
+    - FINANCIAL_STATEMENT
+    - INVOICE
+    - APPOINTMENT_DOCUMENT
+    - CONSTITUTION_DOCUMENT
+    type: string
+    x-enum-varnames:
+    - DocumentTypeIdentification
+    - DocumentTypePassport
+    - DocumentTypeAccountOpeningContract
+    - DocumentTypeMandatoryStatementsAgreementEvidence
+    - DocumentTypeRegistrationForm
+    - DocumentTypeCorporateDocument
+    - DocumentTypeProofOfAddress
+    - DocumentTypeSupplierAgreement
+    - DocumentTypeBusinessLicense
+    - DocumentTypeFinancialStatement
+    - DocumentTypeInvoice
+    - DocumentTypeAppointmentDocument
+    - DocumentTypeConstitutionDocument
+  values.EntityType:
+    enum:
+    - PROFILE
+    - CONTRACT
+    - LEGAL_REPRESENTATIVE
+    - SHAREHOLDER
+    - DIRECTOR
+    - COMPLIANCE_STATE
+    type: string
+    x-enum-varnames:
+    - EntityTypeProfile
+    - EntityTypeContract
+    - EntityTypeLegalRepresentative
+    - EntityTypeShareholder
+    - EntityTypeDirector
+    - EntityTypeComplianceState
+  values.FileSide:
+    enum:
+    - FRONT
+    - BACK
+    - ALL
+    type: string
+    x-enum-varnames:
+    - FileSideFront
+    - FileSideBack
+    - FileSideBackFront
+  values.NotificationType:
+    enum:
+    - POST_WARNINGS
+    - EXCHANGE_CONTRACT
+    - SEND_PENDING_DOCUMENTS
+    - SENT_OP
+    - RECEIVED_OP
+    - CANCEL_EXCHANGE_REGISTER
+    type: string
+    x-enum-varnames:
+    - NotificationTypePostWarnings
+    - NotificationTypeExchangeContract
+    - NotificationTypeSendPendingDocuments
+    - NotificationTypeSentOP
+    - NotificationTypeReceivedOP
+    - NotificationTypeCancelExchangeRegister
+  values.PersonType:
+    enum:
+    - INDIVIDUAL
+    - COMPANY
+    type: string
+    x-enum-varnames:
+    - PersonTypeIndividual
+    - PersonTypeCompany
+  values.ProblemCode:
+    enum:
+    - INVALID_PROBLEM_CODE
+    - INVOICE_IS_REQUIRED
+    - INVOICE_DOCUMENT_NOT_FOUND
+    - INVOICE_ASSOCIATED_TO_ANOTHER_PROFILE
+    - INVOICE_FILE_NOT_FOUND
+    - STATE_NOT_FOUND
+    - PROFILE_NOT_APPROVED
+    - LEGAL_REPRESENTATIVE_NOT_APPROVED
+    - SHAREHOLDING_NOT_ACHIEVE_MINIMUM_REQUIRED
+    - SHAREHOLDER_NOT_APPROVED
+    - BUREAU_NOT_FOUND
+    - BUREAU_STATUS_NOT_REGULAR
+    - DATE_OF_BIRTH_REQUIRED
+    - INPUTTED_OR_ENRICHED_DATE_OF_BIRTH_REQUIRED
+    - PHONE_REQUIRED
+    - EMAIL_REQUIRED
+    - PEP_REQUIRED
+    - LAST_NAME_REQUIRED
+    - DOCUMENT_NOT_FOUND_INVOICE
+    - DOCUMENT_NOT_FOUND_IDENTIFICATION
+    - DOCUMENT_NOT_FOUND_RG
+    - DOCUMENT_NOT_FOUND_RNE
+    - DOCUMENT_NOT_FOUND_RNM
+    - DOCUMENT_NOT_FOUND_CNH
+    - DOCUMENT_NOT_FOUND_PASSPORT
+    - DOCUMENT_NOT_FOUND_ACCOUNT_OPENING_CONTRACT
+    - DOCUMENT_NOT_FOUND_MANDATORY_STATEMENTS_AGREEMENT_EVIDENCE
+    - DOCUMENT_NOT_FOUND_REGISTRATION_FORM
+    - DOCUMENT_NOT_FOUND_CORPORATE_DOCUMENT
+    - DOCUMENT_NOT_FOUND_ORGANOGRAM
+    - DOCUMENT_NOT_FOUND_PROOF_OF_ADDRESS
+    - DOCUMENT_NOT_FOUND_SUPPLIER_AGREEMENT
+    - DOCUMENT_NOT_FOUND_BUSINESS_LICENSE
+    - DOCUMENT_NOT_FOUND_FINANCIAL_STATEMENT
+    - DOCUMENT_NOT_FOUND_BALANCE_SHEET
+    - DOCUMENT_NOT_FOUND_BILLING_REPORT
+    - DOCUMENT_NOT_FOUND_PROOF_OF_FINANCIAL_STANDING
+    - DOCUMENT_NOT_FOUND_APPOINTMENT_DOCUMENT
+    - DOCUMENT_NOT_FOUND_MINUTES_OF_ELECTION
+    - DOCUMENT_NOT_FOUND_LETTER_OF_ATTORNEY
+    - DOCUMENT_NOT_FOUND_CONSTITUTION_DOCUMENT
+    - DOCUMENT_NOT_FOUND_STATUTE_SOCIAL
+    - DOCUMENT_NOT_FOUND_SOCIAL_CONTRACT
+    - DOCUMENT_NOT_FOUND_PROOF_OF_SHAREHOLDER_CHAIN
+    - FILE_NOT_FOUND_INVOICE
+    - FILE_NOT_FOUND_IDENTIFICATION
+    - FILE_NOT_FOUND_RG
+    - FILE_NOT_FOUND_RNE
+    - FILE_NOT_FOUND_RNM
+    - FILE_NOT_FOUND_CNH
+    - FILE_NOT_FOUND_PASSPORT
+    - FILE_NOT_FOUND_ACCOUNT_OPENING_CONTRACT
+    - FILE_NOT_FOUND_MANDATORY_STATEMENTS_AGREEMENT_EVIDENCE
+    - FILE_NOT_FOUND_REGISTRATION_FORM
+    - FILE_NOT_FOUND_CORPORATE_DOCUMENT
+    - FILE_NOT_FOUND_ORGANOGRAM
+    - FILE_NOT_FOUND_PROOF_OF_ADDRESS
+    - FILE_NOT_FOUND_SUPPLIER_AGREEMENT
+    - FILE_NOT_FOUND_BUSINESS_LICENSE
+    - FILE_NOT_FOUND_FINANCIAL_STATEMENT
+    - FILE_NOT_FOUND_BALANCE_SHEET
+    - FILE_NOT_FOUND_BILLING_REPORT
+    - FILE_NOT_FOUND_PROOF_OF_FINANCIAL_STANDING
+    - FILE_NOT_FOUND_APPOINTMENT_DOCUMENT
+    - FILE_NOT_FOUND_MINUTES_OF_ELECTION
+    - FILE_NOT_FOUND_LETTER_OF_ATTORNEY
+    - FILE_NOT_FOUND_CONSTITUTION_DOCUMENT
+    - FILE_NOT_FOUND_STATUTE_SOCIAL
+    - FILE_NOT_FOUND_SOCIAL_CONTRACT
+    - FILE_NOT_FOUND_PROOF_OF_SHAREHOLDER_CHAIN
+    - ADDRESS_NOT_FOUND
+    - IDENTIFICATION_DOCUMENT_NOT_FOUND
+    - FRONT_FILE_NOT_FOUND
+    - BACK_FILE_NOT_FOUND
+    - ECONOMICAL_ACTIVITY_RISK_UNDEFINED
+    - ECONOMICAL_ACTIVITY_RISK_HIGH
+    - DATE_OF_BIRTH_NOT_INPUTTED_OR_ENRICHED
+    - PERSON_FOUND_ON_WATCHLIST
+    - DIRECTOR_NOT_APPROVED
+    - BOARD_OF_DIRECTORS_INCOMPLETE
+    - NOT_FOUND_CAF_ANALYSIS
+    - NOT_FOUND_ENRICHED_INFORMATION
+    - CAF_ANALYSIS_PENDING
+    - PERSON_HAS_INSUFFICIENT_INCOME
+    - COMPANY_HAS_INSUFFICIENT_BILLING
+    type: string
+    x-enum-varnames:
+    - ProblemCodeInvalidProblemCode
+    - ProblemCodeInvoiceIsRequired
+    - ProblemCodeInvoiceDocumentNotFound
+    - ProblemCodeInvoiceAssociatedToAnotherProfile
+    - ProblemCodeInvoiceFileNotFound
+    - ProblemCodeStateNotFound
+    - ProblemCodeProfileNotApproved
+    - ProblemCodeLegalRepresentativeNotApproved
+    - ProblemCodeShareholdingNotAchieveMinimumRequired
+    - ProblemCodeShareholderNotApproved
+    - ProblemCodeNotFoundAtBureau
+    - ProblemCodeBureauStatusNotRegular
+    - ProblemCodeDateOfBirthRequired
+    - ProblemCodeInputtedOrEnrichedDateOfBirthRequired
+    - ProblemCodePhoneRequired
+    - ProblemCodeEmailRequired
+    - ProblemCodePepRequired
+    - ProblemCodeLastNameRequired
+    - ProblemCodeDocumentNotFoundInvoice
+    - ProblemCodeDocumentNotFoundIdentification
+    - ProblemCodeDocumentNotFoundRG
+    - ProblemCodeDocumentNotFoundRNE
+    - ProblemCodeDocumentNotFoundRNM
+    - ProblemCodeDocumentNotFoundCNH
+    - ProblemCodeDocumentNotFoundPassport
+    - ProblemCodeDocumentNotFoundAccountOpeningContract
+    - ProblemCodeDocumentNotFoundMandatoryStatementsAgreementEvidence
+    - ProblemCodeDocumentNotFoundRegistrationForm
+    - ProblemCodeDocumentNotFoundCorporateDocument
+    - ProblemCodeDocumentNotFoundOrganogram
+    - ProblemCodeDocumentNotFoundProofOfAddress
+    - ProblemCodeDocumentNotFoundSupplierAgreement
+    - ProblemCodeDocumentNotFoundBusinessLicense
+    - ProblemCodeDocumentNotFoundFinancialStatement
+    - ProblemCodeDocumentNotFoundBalanceSheet
+    - ProblemCodeDocumentNotFoundBillingReport
+    - ProblemCodeDocumentNotFoundProofOfFinancialStanding
+    - ProblemCodeDocumentNotFoundAppointmentDocument
+    - ProblemCodeDocumentNotFoundMinutesOfElection
+    - ProblemCodeDocumentNotFoundLetterOfAttorney
+    - ProblemCodeDocumentNotFoundConstitutionDocument
+    - ProblemCodeDocumentNotFoundStatuteSocial
+    - ProblemCodeDocumentNotFoundSocialContract
+    - ProblemCodeDocumentNotProofOfShareholderChain
+    - ProblemCodeFileNotFoundInvoice
+    - ProblemCodeFileNotFoundIdentification
+    - ProblemCodeFileNotFoundRG
+    - ProblemCodeFileNotFoundRNE
+    - ProblemCodeFileNotFoundRNM
+    - ProblemCodeFileNotFoundCNH
+    - ProblemCodeFileNotFoundPassport
+    - ProblemCodeFileNotFoundAccountOpeningContract
+    - ProblemCodeFileNotFoundMandatoryStatementsAgreementEvidence
+    - ProblemCodeFileNotFoundRegistrationForm
+    - ProblemCodeFileNotFoundCorporateDocument
+    - ProblemCodeFileNotFoundOrganogram
+    - ProblemCodeFileNotFoundProofOfAddress
+    - ProblemCodeFileNotFoundSupplierAgreement
+    - ProblemCodeFileNotFoundBusinessLicense
+    - ProblemCodeFileNotFoundFinancialStatement
+    - ProblemCodeFileNotFoundBalanceSheet
+    - ProblemCodeFileNotFoundBillingReport
+    - ProblemCodeFileNotFoundProofOfFinancialStanding
+    - ProblemCodeFileNotFoundAppointmentDocument
+    - ProblemCodeFileNotFoundMinutesOfElection
+    - ProblemCodeFileNotFoundLetterOfAttorney
+    - ProblemCodeFileNotFoundConstitutionDocument
+    - ProblemCodeFileNotFoundStatuteSocial
+    - ProblemCodeFileNotFoundSocialContract
+    - ProblemCodeFileNotFoundProofOfShareholderChain
+    - ProblemCodeAddressNotFound
+    - ProblemCodeIdentificationDocumentNotFound
+    - ProblemCodeFrontFileNotFound
+    - ProblemCodeBackFileNotFound
+    - ProblemCodeEconomicalActivityRiskUndefined
+    - ProblemCodeEconomicalActivityRiskHigh
+    - ProblemCodeDateOfBirthNotInputtedOrEnriched
+    - ProblemCodePersonFoundOnWatchlist
+    - ProblemCodeDirectorNotApproved
+    - ProblemCodeBoardOfDirectorsIncomplete
+    - ProblemCodeNotFoundCafAnalysis
+    - ProblemCodeNotFoundEnrichedInformation
+    - ProblemCodeCafAnalysisPending
+    - ProblemCodePersonHasInsufficientMinimumIncome
+    - ProblemCodeCompanyHasInsufficientBilling
+  values.Result:
+    enum:
+    - CREATED
+    - INCOMPLETE
+    - ANALYSING
+    - APPROVED
+    - REJECTED
+    - IGNORED
+    - BLOCKED
+    - INACTIVE
+    type: string
+    x-enum-varnames:
+    - ResultStatusCreated
+    - ResultStatusIncomplete
+    - ResultStatusAnalysing
+    - ResultStatusApproved
+    - ResultStatusRejected
+    - ResultStatusIgnored
+    - ResultStatusBlocked
+    - ResultStatusInactive
+  values.RoleType:
+    enum:
+    - CUSTOMER
+    - MERCHANT
+    - BUSINESS_PARTNER
+    - COUNTERPARTY
+    - LEGAL_REPRESENTATIVE
+    - SHAREHOLDER
+    - DIRECTOR
+    type: string
+    x-enum-varnames:
+    - RoleTypeCustomer
+    - RoleTypeMerchant
+    - RoleTypeBusinessPartner
+    - RoleTypeCounterParty
+    - RoleTypeLegalRepresentative
+    - RoleTypeShareholder
+    - RoleTypeDirector
+  values.RuleName:
+    enum:
+    - CUSTOMER_IS_UNDER_AGE
+    - CUSTOMER_NOT_FOUND_IN_SERASA
+    - CUSTOMER_HAS_PROBLEMS_IN_SERASA
+    - WATCHLIST
+    - BLACKLIST
+    - REQUIRED_FIELDS_NOT_FOUND
+    - PROFILE_APPROVED
+    - TEST
+    - DOA_VALIDATION
+    - DOA_FILE_NOT_FOUND
+    - MANUAL_BLOCK
+    - SHAREHOLDING
+    - SHAREHOLDERS
+    - PEP
+    - LEGAL_REPRESENTATIVES_RESULT
+    - HIGH_RISK_ACTIVITY
+    - DOCUMENT_NOT_FOUND
+    - FILE_NOT_FOUND
+    - ADDRESS_NOT_FOUND
+    - BLOCKED
+    - INACTIVE
+    - BOARD_OF_DIRECTORS_COMPLETE
+    - BOARD_OF_DIRECTORS_RESULT
+    - PROFILE_DATA
+    - CAF_ANALYSIS_RESULT
+    - INSUFFICIENT_BILLING
+    - INSUFFICIENT_INCOME
+    type: string
+    x-enum-varnames:
+    - RuleNameCustomerIsUnderAge
+    - RuleNameNotFoundInSerasa
+    - RuleNameHasProblemsInSerasa
+    - RuleNameOccurrenceInWatchlist
+    - RuleNameOccurrenceInBlacklist
+    - RuleNameRequiredFieldsNotFound
+    - RuleNameProfileApproved
+    - RuleNameTest
+    - RuleNameDOAValidation
+    - RuleNameDOAFileNotfound
+    - RuleNameManualBlock
+    - RuleNameShareholding
+    - RuleNameShareholders
+    - RuleNamePep
+    - RuleNameLegalRepresentativesResult
+    - RuleNameHighRiskActivity
+    - RuleNameDocumentNotFound
+    - RuleNameFileNotFound
+    - RuleNameAddressNotFound
+    - RuleNameBlocked
+    - RuleNameInactive
+    - RuleNameBoardOfDirectorsComplete
+    - RuleNameBoardOfDirectorsResult
+    - RuleNameManualValidation
+    - RuleNameCafAnalysis
+    - RuleNameInsufficientBilling
+    - RuleNameInsufficientIncome
+  values.RuleSet:
+    enum:
+    - IS_UNDER_AGE
+    - SERASA_BUREAU
+    - WATCHLIST
+    - BLACKLIST
+    - STATE
+    - INCOMPLETE
+    - INCOMPLETE_CONTRACT
+    - PRECONDITION_CONTRACT_SET
+    - TEST
+    - DOA
+    - MANUAL_BLOCK
+    - OWNERSHIP_STRUCTURE
+    - PEP
+    - LEGAL_REPRESENTATIVES
+    - ACTIVITY_RISK
+    - BOARD_OF_DIRECTORS
+    - MANUAL_VALIDATION
+    - CAF_ANALYSIS
+    - MINIMUM_BILLING
+    - MINIMUM_INCOME
+    type: string
+    x-enum-varnames:
+    - RuleSetIsUnderAge
+    - RuleSetSerasa
+    - RuleSetWatchlist
+    - RuleSetBlacklist
+    - RuleSetState
+    - RuleSetIncomplete
+    - RuleSetIncompleteContract
+    - RuleSetPreconditionContract
+    - RuleSetTest
+    - RuleSetDOA
+    - RuleSetManualBlock
+    - RuleSetOwnershipStructure
+    - RuleSetPep
+    - RuleSetLegalRepresentatives
+    - RuleSetActivityRisk
+    - RuleSetBoardOfDirectors
+    - RuleSetManualValidation
+    - RuleSetCafAnalysis
+    - RuleSetMinimumBilling
+    - RuleSetMinimumIncome
+host: api-dev.bexs.com.br
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: API Documentation for Temis Compliance Microservice.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Temis Compliance API
+  version: "1.0"
+paths:
+  /check/{entity_id}:
+    post:
+      consumes:
+      - application/json
+      description: execute compliance validation over an entity
+      parameters:
+      - description: Entity ID
+        in: path
+        name: entity_id
+        required: true
+        type: string
+      - description: 'Name of Compliance Engine '
+        in: path
+        name: entity_type
+        required: true
+        type: string
+      - description: Type of new check event
+        in: path
+        name: event_type
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/contracts.ComplianceResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Post compliance check
+      tags:
+      - States
+  /profile/{profile_id}:
+    get:
+      consumes:
+      - application/json
+      description: Get Profile by id
+      parameters:
+      - description: Profile ID
+        in: path
+        name: profile_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/bitbucket_org_bexstech_temis-compliance_src_presentation_profileApi_contracts.ProfileResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Get Profile by id
+      tags:
+      - Profile
+  /result/{entity_id}:
+    get:
+      consumes:
+      - application/json
+      description: get states result for a given entity
+      parameters:
+      - description: Entity ID
+        in: path
+        name: entity_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/contracts.ComplianceResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Get compliance result
+      tags:
+      - States
+  /states/{entity_id}:
+    get:
+      consumes:
+      - application/json
+      description: Get state from by entity_id
+      parameters:
+      - description: Entity ID
+        in: path
+        name: entity_id
+        required: true
+        type: string
+      - description: Search only states pending
+        in: query
+        name: only_pending
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/contracts.StateResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Get state from entity
+      tags:
+      - States
+  /states/reprocess:
+    post:
+      consumes:
+      - application/json
+      description: Resync compliance states
+      parameters:
+      - description: Name of the Engine to reprocess
+        in: path
+        name: engine_name
+        type: string
+      - description: Array of entities ids to resync compliance states
+        in: path
+        name: ids
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/contracts.ComplianceResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Resync compliance states
+      tags:
+      - States
+  /states/resync:
+    post:
+      consumes:
+      - application/json
+      description: Resync compliance states
+      parameters:
+      - description: Array of entities ids to resync compliance states
+        in: path
+        name: ids
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/contracts.ComplianceResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Resync compliance states
+      tags:
+      - States
+  /states/search:
+    get:
+      consumes:
+      - application/json
+      description: search profile states
+      parameters:
+      - description: Search By rule_name
+        in: query
+        name: rule_name
+        type: string
+      - description: Skip rows returned by setting offset
+        in: query
+        name: offset
+        type: string
+      - description: Cut rows returned by setting limit
+        in: query
+        name: limit
+        type: string
+      - description: Sort rows by sort_by
+        in: query
+        name: sort_by
+        type: string
+      - description: Order rows by order_by
+        in: query
+        name: order_by
+        type: string
+      - collectionFormat: csv
+        description: Filter rows by result status of the profile
+        in: query
+        items:
+          type: string
+        name: result_status
+        type: array
+      - description: Filter rows by filter using profile_id, name or document_number
+        in: query
+        name: filter
+        type: string
+      - collectionFormat: csv
+        description: Filter rows by one or more partner_id
+        in: query
+        items:
+          type: string
+        name: partner_ids
+        type: array
+      - collectionFormat: csv
+        description: Filter rows by one or more parent_id
+        in: query
+        items:
+          type: string
+        name: parents_ids
+        type: array
+      - collectionFormat: csv
+        description: Filter rows by one or more offer_type
+        in: query
+        items:
+          type: string
+        name: offer_types
+        type: array
+      - description: Filter rows by one rule name
+        in: query
+        name: rule_name
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/contracts.SearchPaginatedResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Search profile states
+      tags:
+      - States
+  /states/search/{profile_id}:
+    get:
+      consumes:
+      - application/json
+      description: Find states by profile_id
+      parameters:
+      - description: Profile ID
+        in: path
+        name: profile_id
+        required: true
+        type: string
+      - description: Find by result_status
+        in: query
+        name: result_status
+        required: true
+        type: string
+      - description: Engine name
+        in: query
+        name: engine_name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/contracts.FindResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/presentation.ErrorResponse'
+      summary: Find states by profile_id
+      tags:
+      - States
+schemes:
+- https
+swagger: "2.0"

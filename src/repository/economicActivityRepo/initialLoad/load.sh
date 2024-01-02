@@ -1,0 +1,2 @@
+# Change host, port and user to access a non-local DB
+psql -h localhost  -p 5432 -U bexs -d bexs -c "\copy economical_activities(code_id,description,risk_value) FROM './economicalActivities.csv' DELIMITER ',' CSV HEADER"
